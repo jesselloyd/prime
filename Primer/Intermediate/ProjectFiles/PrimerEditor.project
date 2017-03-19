@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="PrimerEditor">
+  <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer.Target.cs" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/PrimerEditor.Target.cs" />
+    <VirtualDirectory Name="Primer">
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/BaseCharacter.cpp" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/BaseCharacter.h" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.Build.cs" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.cpp" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultEditor.ini" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultEngine.ini" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe PrimerEditor Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe PrimerEditor Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe PrimerEditor Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe PrimerEditor Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe PrimerEditor Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe PrimerEditor Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe PrimerEditor Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe PrimerEditor Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject&quot; -game" WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe PrimerEditor Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe PrimerEditor Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe PrimerEditor Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

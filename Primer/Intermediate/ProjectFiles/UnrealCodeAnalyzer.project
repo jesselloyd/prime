@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealCodeAnalyzer">
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Target.cs" />
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/UnrealCodeAnalyzer.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.cpp" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Action.h" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.cpp" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Consumer.h" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.cpp" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/MacroCallback.h" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.cpp" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/Visitor.h" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/main.cpp" />
+    <VirtualDirectory Name="ThreadSafety">
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSAction.cpp" />
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSAction.h" />
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSConsumer.cpp" />
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSConsumer.h" />
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSVisitor.cpp" />
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private/ThreadSafety/TSVisitor.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Public/UnrealCodeAnalyzerPCH.cpp" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Debug" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Shipping" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Test" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealCodeAnalyzer-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe UnrealCodeAnalyzer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

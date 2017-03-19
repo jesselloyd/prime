@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="BlankProgram">
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/BlankProgram/BlankProgram.Target.cs" />
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/BlankProgram/BlankProgram.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/BlankProgram/Private/BlankProgram.cpp" />
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/BlankProgram/Private/BlankProgram.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Debug" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BlankProgram Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe BlankProgram Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BlankProgram Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BlankProgram Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BlankProgram Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe BlankProgram Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BlankProgram Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe BlankProgram Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Shipping" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BlankProgram Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe BlankProgram Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Test" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./BlankProgram-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe BlankProgram Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe BlankProgram Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe BlankProgram Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

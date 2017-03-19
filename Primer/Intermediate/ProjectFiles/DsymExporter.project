@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DsymExporter">
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Target.cs" />
+  <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/Mac/DsymExporter/DsymExporter.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/Mac/DsymExporter/Private/DsymExporterApp.cpp" />
+    <VirtualDirectory Name="Mac">
+      <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/Mac/DsymExporter/Private/Mac/DsymExporterMainMac.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Debug" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DsymExporter Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe DsymExporter Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-DebugGame" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DsymExporter Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DsymExporter Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DsymExporter Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe DsymExporter Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DsymExporter Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe DsymExporter Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Shipping" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DsymExporter Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe DsymExporter Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Test" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux" Command="./DsymExporter-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe DsymExporter Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe DsymExporter Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe DsymExporter Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>

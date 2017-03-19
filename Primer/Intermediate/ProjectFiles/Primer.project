@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Primer">
+  <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer.Target.cs" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/PrimerEditor.Target.cs" />
+    <VirtualDirectory Name="Primer">
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/BaseCharacter.cpp" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/BaseCharacter.h" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.Build.cs" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.cpp" />
+      <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Source/Primer/Primer.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultEditor.ini" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultEngine.ini" />
+    <File Name="/home/jason/Documents/_repos/Prime/prime/Primer/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Settings />
+    <Configuration Name="Debug">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Debug" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Primer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Primer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Primer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe Primer Linux Debug -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-DebugGame" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Primer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Primer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Primer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe Primer Linux DebugGame -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Primer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Primer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Primer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe Primer Linux Development -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Shipping" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Primer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Primer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Primer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe Primer Linux Shipping -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Test" />
+      <General WorkingDirectory="/home/jason/Documents/_repos/Prime/prime/Primer/Binaries/Linux" Command="./Primer-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe Primer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe Primer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe Primer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -clean
+mono UnrealBuildTool.exe Primer Linux Test -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/jason/Documents/_repos/Prime/prime/Primer/Primer.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+</CodeLite_Project>
