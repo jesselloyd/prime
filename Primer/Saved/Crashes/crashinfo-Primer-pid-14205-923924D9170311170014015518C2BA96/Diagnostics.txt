@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.15.1.0
+ ... built from changelist 0
+
+OS version Linux 4.8.0-41-generic (network name: jason-Xubuntu)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!CommonLinuxCrashHandler(FGenericCrashContext const&) + some bytes
+Unknown!PlatformCrashHandler(int, siginfo_t*, void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x11630) [0x7f021348c630] + some bytes
+Unknown!FLinuxApplication::FindWindowBySDLWindow(SDL_Window*) + some bytes
+Unknown!FLinuxWindow::HitTest(SDL_Window*, SDL_Point const*, void*) + some bytes
+Unknown!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x6b6505) [0x7f020daa6505] + some bytes
+Unknown!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x6b6ea8) [0x7f020daa6ea8] + some bytes
+Unknown!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x6661e3) [0x7f020da561e3] + some bytes
+Unknown!FLinuxPlatformMisc::PumpMessages(bool) + some bytes
+/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/UE4Editor!FEngineLoop::Tick() + some bytes [Runtime/Core/Public/UObject/NameTypes.h:638]
+/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/UE4Editor!GuardedMain(wchar_t const*) + some bytes [/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:166]
+Unknown!CommonLinuxMain(int, char**, int (*)(wchar_t const*)) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf1) [0x7f0202c763f1] + some bytes
+Unknown!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/UE4Editor(_start+0x2a) [0x414e5a] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
