@@ -2628,3 +2628,8 @@ LogInit: Object subsystem initialized
 [2017.03.27-19.08.27:251][ 37]LogWorld: Bringing up level for play took: 0.000932
 [2017.03.27-19.08.27:253][ 37]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.061
 [2017.03.27-19.08.44:915][105]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.27-19.12.21:255][470]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.27-19.12.21:259][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
+[2017.03.27-19.12.21:296][470]LogSavePackage: Save=34.24ms
+[2017.03.27-19.12.21:296][470]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterC124B23415030E1B000C0106C49AE84A.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
+[2017.03.27-19.12.21:297][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
