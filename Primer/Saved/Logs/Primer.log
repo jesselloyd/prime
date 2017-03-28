@@ -1319,3 +1319,22 @@ LogInit: Object subsystem initialized
 [2017.03.28-01.06.39:285][557]LogSavePackage: Save=94.28ms
 [2017.03.28-01.06.39:285][557]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltData29E07D792703141B000600BF14ADCEAD.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
 [2017.03.28-01.06.39:286][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
+[2017.03.28-01.07.35:874][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-01.07.35:890][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-01.07.35:891][ 16]PIE: New page: PIE session: BasicArena (Mar 27, 2017, 3:07:35 PM)
+[2017.03.28-01.07.35:891][ 16]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.28-01.07.35:893][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002713s)
+[2017.03.28-01.07.35:894][ 16]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.28-01.07.35:894][ 16]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.03.28-01.07.35:894][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003513s)
+[2017.03.28-01.07.35:921][ 16]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.28-01.07.35:921][ 16]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.28-01.07.35:921][ 16]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.28-01.07.35:921][ 16]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.28-01.07.35:921][ 16]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.28-01.07.35:921][ 16]LogInit: FAudioDevice initialized.
+[2017.03.28-01.07.35:954][ 16]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.28-01.07.35:956][ 16]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.27-20.07.35
+[2017.03.28-01.07.35:956][ 16]LogWorld: Bringing up level for play took: 0.000893
+[2017.03.28-01.07.35:958][ 16]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.076
+[2017.03.28-01.07.48:936][500]LogALAudio: Closing ALAudio device : OpenAL Soft
