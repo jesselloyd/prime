@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WERReportMetadata>
+	<OSVersionInformation>
+		<WindowsNTVersion>0.0</WindowsNTVersion>
+		<Build>No Build</Build>
+		<Product>Linux</Product>
+		<Edition>No Edition</Edition>
+		<BuildString>No BuildString</BuildString>
+		<Revision>0</Revision>
+		<Flavor>No Flavor</Flavor>
+		<Architecture>Unknown Architecture</Architecture>
+		<LCID>0</LCID>
+	</OSVersionInformation>
+	<ParentProcessInformation>
+		<ParentProcessId>24566</ParentProcessId>
+		<ParentProcessPath>C:\Windows\explorer.exe</ParentProcessPath>
+		<ParentProcessCmdLine>C:\Windows\Explorer.EXE</ParentProcessCmdLine>
+	</ParentProcessInformation>
+	<ProblemSignatures>
+		<EventType>APPCRASH</EventType>
+		<Parameter0>UE4-Primer</Parameter0>
+		<Parameter1>4.15.1</Parameter1>
+		<Parameter2>0</Parameter2>
+		<Parameter3>Unknown Fault Module</Parameter3>
+		<Parameter4>0.0.0.0</Parameter4>
+		<Parameter5>00000000</Parameter5>
+		<Parameter6>00000000</Parameter6>
+		<Parameter7>0000000000000000</Parameter7>
+		<Parameter8>!!</Parameter8>
+		<Parameter9>++UE4+Release-4.15!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/!Editor!0</Parameter9>
+	</ProblemSignatures>
+	<DynamicSignatures>
+		<Parameter1>6.1.7601.2.1.0.256.48</Parameter1>
+		<Parameter2>1033</Parameter2>
+		<DeploymentName />
+		<BuildVersion>++UE4+Release-4.15-CL-0</BuildVersion>
+		<IsEnsure>1</IsEnsure>
+		<IsAssert>0</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<Parameter3>Sent in the unattended mode</Parameter3>
+		<Parameter4>!LoginId:000283f12b03140d003a007b2ae3db35!EpicAccountId:!Name:jason</Parameter4>
+		<bAllowToBeContacted>true</bAllowToBeContacted>
+	</DynamicSignatures>
+	<SystemInformation>
+		<MID>11111111-2222-3333-4444-555555555555</MID>
+		<SystemManufacturer>Unknown.</SystemManufacturer>
+		<SystemProductName>Linux machine</SystemProductName>
+		<BIOSVersion>A02</BIOSVersion>
+	</SystemInformation>
+</WERReportMetadata>

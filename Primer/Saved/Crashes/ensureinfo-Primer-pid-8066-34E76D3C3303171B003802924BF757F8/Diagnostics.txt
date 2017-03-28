@@ -1,0 +1,98 @@
+Generating report for minidump
+
+Application version 4.15.1.0
+ ... built from changelist 0
+
+OS version Linux 4.8.0-41-generic (network name: jason-Xubuntu)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: false [File:/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Source/Editor/Kismet/Private/SKismetInspector.cpp] [Line: 540] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!NewReportEnsure(wchar_t const*) + some bytes
+Unknown!FDebug::EnsureFailed(char const*, char const*, int, wchar_t const*) + some bytes
+Unknown!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse(bool, char const*, char const*, int, wchar_t const*, ...) + some bytes
+Unknown!SKismetInspector::UpdateFromObjects(TArray<UObject*, FDefaultAllocator> const&, FKismetSelectionInfo&, SKismetInspector::FShowDetailsOptions const&) + some bytes
+Unknown!SKismetInspector::Tick(FGeometry const&, double, float) + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SBorder::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SBorder::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SSplitter::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::PaintArrangedChildren(FPaintArgs const&, FArrangedChildren const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SPanel::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SOverlay::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SCompoundWidget::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWindow::OnPaint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWidget::Paint(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!SWindow::PaintWindow(FPaintArgs const&, FGeometry const&, FSlateRect const&, FSlateWindowElementList&, int, FWidgetStyle const&, bool) const + some bytes
+Unknown!FSlateApplication::DrawWindowAndChildren(TSharedRef<SWindow, (ESPMode)0> const&, FDrawWindowArgs&) + some bytes
+Unknown!FSlateApplication::PrivateDrawWindows(TSharedPtr<SWindow, (ESPMode)0>) + some bytes
+Unknown!FSlateApplication::TickApplication(float) + some bytes
+Unknown!FSlateApplication::Tick() + some bytes
+Unknown!FEngineLoop::Tick() + some bytes
+Unknown!GuardedMain(wchar_t const*) + some bytes
+Unknown!CommonLinuxMain(int, char**, int (*)(wchar_t const*)) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf1) [0x7f556d43d3f1] + some bytes
+Unknown!/home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEngine/Engine/Binaries/Linux/UE4Editor(_start+0x2a) [0x414e5a] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
