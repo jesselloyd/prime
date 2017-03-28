@@ -1,6 +1,7 @@
 # Primer ignore
 Primer/Binaries/*
 Primer/Intermediate/Build/Win64/*
+Primer/Intermediate/Build/Linux/*
 Primer/Intermediate/*
 Primer/Saved/*
 
