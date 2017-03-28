@@ -2265,3 +2265,437 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2017.03.28-05.10.31:080][ 15]LogLinux: Setting swap interval to 'Immediate'
 [2017.03.28-05.10.31:120][ 15]LogLinux: Setting swap interval to 'Immediate'
 [2017.03.28-05.10.31:149][ 15]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.17:480][235]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.17:864][272]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.20:987][633]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.22:897][633]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.22:904][633]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/jason/Documents/_repos/Prime/prime/assets/char_idle1.fbx)
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: NodeAttribute, ItemCount : 27
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: Model, ItemCount : 30
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: Deformer, ItemCount : 27
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: Material, ItemCount : 1
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: AnimationCurveNode, ItemCount : 81
+[2017.03.28-05.23.22:908][633]LogFbx: ItemName: AnimationCurve, ItemCount : 243
+[2017.03.28-05.23.22:913][633]LogFbx: Loading FBX Scene from /home/jason/Documents/_repos/Prime/prime/assets/char_idle1.fbx
+[2017.03.28-05.23.22:942][633]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.28-05.23.23:000][633]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.25:840][633]LogFbx: Loading FBX Scene from /home/jason/Documents/_repos/Prime/prime/assets/char_idle1.fbx
+[2017.03.28-05.23.25:870][633]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.28-05.23.25:873][633]LogFbx: =================================================
+[2017.03.28-05.23.25:873][633]LogFbx: Dumping Node START [custom_bone] 
+[2017.03.28-05.23.25:873][633]LogFbx: 	Total Deformer Count 1346439808.
+[2017.03.28-05.23.25:873][633]LogFbx: 	Attribute (Sphere) Type (4).
+[2017.03.28-05.23.25:873][633]LogFbx: 		[Node Attribute Child 1] custom_bone (Type Mesh).
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node END [custom_bone]
+[2017.03.28-05.23.25:874][633]LogFbx: =================================================
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node START [man] 
+[2017.03.28-05.23.25:874][633]LogFbx: 	Total Deformer Count -1699440336.
+[2017.03.28-05.23.25:874][633]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.28-05.23.25:874][633]LogFbx: =================================================
+[2017.03.28-05.23.25:874][633]LogFbx: 	Attribute (Plane) Type (4).
+[2017.03.28-05.23.25:874][633]LogFbx: 		[Node Attribute Child 1] man (Type Mesh).
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node END [man]
+[2017.03.28-05.23.25:874][633]LogFbx: =================================================
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node START [poncho] 
+[2017.03.28-05.23.25:874][633]LogFbx: 	Total Deformer Count -368302960.
+[2017.03.28-05.23.25:874][633]LogFbx: 	Attribute (Plane.003) Type (4).
+[2017.03.28-05.23.25:874][633]LogFbx: 		[Node Attribute Child 1] poncho (Type Mesh).
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node END [poncho]
+[2017.03.28-05.23.25:874][633]LogFbx: =================================================
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node START [custom_bone] 
+[2017.03.28-05.23.25:874][633]LogFbx: 	Total Deformer Count 1346455552.
+[2017.03.28-05.23.25:874][633]LogFbx: 	Attribute (Sphere) Type (4).
+[2017.03.28-05.23.25:874][633]LogFbx: 		[Node Attribute Child 1] custom_bone (Type Mesh).
+[2017.03.28-05.23.25:874][633]LogFbx: Dumping Node END [custom_bone]
+[2017.03.28-05.23.25:875][633]LogFbx: =================================================
+[2017.03.28-05.23.25:875][633]LogFbx: Dumping Node START [man] 
+[2017.03.28-05.23.25:875][633]LogFbx: 	Total Deformer Count -1699483808.
+[2017.03.28-05.23.25:875][633]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.28-05.23.25:875][633]LogFbx: =================================================
+[2017.03.28-05.23.25:875][633]LogFbx: 	Attribute (Plane) Type (4).
+[2017.03.28-05.23.25:875][633]LogFbx: 		[Node Attribute Child 1] man (Type Mesh).
+[2017.03.28-05.23.25:875][633]LogFbx: Dumping Node END [man]
+[2017.03.28-05.23.25:875][633]LogFbx: =================================================
+[2017.03.28-05.23.25:875][633]LogFbx: Dumping Node START [poncho] 
+[2017.03.28-05.23.25:875][633]LogFbx: 	Total Deformer Count -368303520.
+[2017.03.28-05.23.25:875][633]LogFbx: 	Attribute (Plane.003) Type (4).
+[2017.03.28-05.23.25:875][633]LogFbx: 		[Node Attribute Child 1] poncho (Type Mesh).
+[2017.03.28-05.23.25:875][633]LogFbx: Dumping Node END [poncho]
+[2017.03.28-05.23.25:875][633]LogFbx: Valid bind pose for Pose (Plane) - man
+[2017.03.28-05.23.25:876][633]LogFbx: Triangulating skeletal mesh man
+[2017.03.28-05.23.25:888][633]LogFbx:Warning: Bones digested - 40  Depth of hierarchy - 8
+[2017.03.28-05.23.25:916][633]LogSkeletalMesh: Section 0: 823 vertices, 17 active bones
+[2017.03.28-05.23.25:917][633]LogSkeletalMesh: Section 0: Material=0, 1356 triangles
+[2017.03.28-05.23.25:925][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_PhysicsAsset'
+[2017.03.28-05.23.25:925][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_PhysicsAsset'
+[2017.03.28-05.23.25:931][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_Skeleton'
+[2017.03.28-05.23.25:931][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_Skeleton'
+[2017.03.28-05.23.25:933][633]LogFbx: =================================================
+[2017.03.28-05.23.25:933][633]LogFbx: Dumping Node START [custom_bone] 
+[2017.03.28-05.23.25:933][633]LogFbx: 	Total Deformer Count -1702568704.
+[2017.03.28-05.23.25:933][633]LogFbx: 	Attribute (Sphere) Type (4).
+[2017.03.28-05.23.25:933][633]LogFbx: 		[Node Attribute Child 1] custom_bone (Type Mesh).
+[2017.03.28-05.23.25:933][633]LogFbx: Dumping Node END [custom_bone]
+[2017.03.28-05.23.25:933][633]LogFbx: =================================================
+[2017.03.28-05.23.25:933][633]LogFbx: Dumping Node START [man] 
+[2017.03.28-05.23.25:934][633]LogFbx: 	Total Deformer Count 1737023600.
+[2017.03.28-05.23.25:934][633]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.28-05.23.25:934][633]LogFbx: =================================================
+[2017.03.28-05.23.25:934][633]LogFbx: 	Attribute (Plane) Type (4).
+[2017.03.28-05.23.25:934][633]LogFbx: 		[Node Attribute Child 1] man (Type Mesh).
+[2017.03.28-05.23.25:934][633]LogFbx: Dumping Node END [man]
+[2017.03.28-05.23.25:934][633]LogFbx: =================================================
+[2017.03.28-05.23.25:934][633]LogFbx: Dumping Node START [poncho] 
+[2017.03.28-05.23.25:934][633]LogFbx: 	Total Deformer Count -346022768.
+[2017.03.28-05.23.25:934][633]LogFbx: 	Attribute (Plane.003) Type (4).
+[2017.03.28-05.23.25:934][633]LogFbx: 		[Node Attribute Child 1] poncho (Type Mesh).
+[2017.03.28-05.23.25:934][633]LogFbx: Dumping Node END [poncho]
+[2017.03.28-05.23.25:934][633]LogFbx: =================================================
+[2017.03.28-05.23.25:934][633]LogFbx: Dumping Node START [custom_bone] 
+[2017.03.28-05.23.25:934][633]LogFbx: 	Total Deformer Count -1702577536.
+[2017.03.28-05.23.25:934][633]LogFbx: 	Attribute (Sphere) Type (4).
+[2017.03.28-05.23.25:934][633]LogFbx: 		[Node Attribute Child 1] custom_bone (Type Mesh).
+[2017.03.28-05.23.25:934][633]LogFbx: Dumping Node END [custom_bone]
+[2017.03.28-05.23.25:935][633]LogFbx: =================================================
+[2017.03.28-05.23.25:935][633]LogFbx: Dumping Node START [man] 
+[2017.03.28-05.23.25:935][633]LogFbx: 	Total Deformer Count 1736997136.
+[2017.03.28-05.23.25:935][633]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.28-05.23.25:935][633]LogFbx: =================================================
+[2017.03.28-05.23.25:935][633]LogFbx: 	Attribute (Plane) Type (4).
+[2017.03.28-05.23.25:935][633]LogFbx: 		[Node Attribute Child 1] man (Type Mesh).
+[2017.03.28-05.23.25:935][633]LogFbx: Dumping Node END [man]
+[2017.03.28-05.23.25:935][633]LogFbx: =================================================
+[2017.03.28-05.23.25:935][633]LogFbx: Dumping Node START [poncho] 
+[2017.03.28-05.23.25:935][633]LogFbx: 	Total Deformer Count -346022208.
+[2017.03.28-05.23.25:935][633]LogFbx: 	Attribute (Plane.003) Type (4).
+[2017.03.28-05.23.25:935][633]LogFbx: 		[Node Attribute Child 1] poncho (Type Mesh).
+[2017.03.28-05.23.25:935][633]LogFbx: Dumping Node END [poncho]
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(0) skeleton
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(1) master
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(2) leg_ik_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(3) foot_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(4) foot_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(5) arm_ik_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(6) arm_ik_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(7) knee_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(8) knee_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(9) elbow_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(10) elbow_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(11) leg_ik_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(12) foot_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(13) foot_r_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(14) arm_ik_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(15) arm_ik_r_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(16) knee_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(17) knee_r_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(18) elbow_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(19) elbow_r_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(20) pelvis
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(21) spine_1
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(22) spine_2
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(23) neck
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(24) head
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(25) head_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(26) upper_leg_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(27) lower_leg_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(28) lower_leg_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(29) upper_arm_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(30) forearm_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(31) hand_l
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(32) hand_l_end
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(33) upper_leg_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(34) lower_leg_r
+[2017.03.28-05.23.25:935][633]LogFbx: SortedLinks :(35) lower_leg_r_end
+[2017.03.28-05.23.25:936][633]LogFbx: SortedLinks :(36) upper_arm_r
+[2017.03.28-05.23.25:936][633]LogFbx: SortedLinks :(37) forearm_r
+[2017.03.28-05.23.25:936][633]LogFbx: SortedLinks :(38) hand_r
+[2017.03.28-05.23.25:936][633]LogFbx: SortedLinks :(39) hand_r_end
+[2017.03.28-05.23.25:937][633]LogFbx: Parsing AnimStack skeleton|skeletonAction
+[2017.03.28-05.23.25:939][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_Anim'
+[2017.03.28-05.23.25:939][633]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v2/char_idle1_Anim'
+[2017.03.28-05.23.26:103][633]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameFiles/3DAssets/Character_v2/char_idle1_Anim.char_idle1_Anim
+[2017.03.28-05.23.26:111][633]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.28-05.23.26:111][633]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+foot_l_end  
+arm_ik_l_end  
+knee_l_end  
+elbow_l_end  
+foot_r_end  
+arm_ik_r_end  
+knee_r_end  
+elbow_r_end  
+head_end  
+lower_leg_l_end  
+hand_l_end  
+lower_leg_r_end  
+hand_r_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.03.28-05.23.26:212][635]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.31:370][  3]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.23.31:400][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v2/char_idle1_Anim" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_Anim.uasset" SILENT=true
+[2017.03.28-05.23.31:421][  3]LogSavePackage: Save=20.41ms
+[2017.03.28-05.23.31:421][  3]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_idle1_Anim93AF46FA1F03001C00170191AB51754B.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_Anim.uasset'
+[2017.03.28-05.23.31:422][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_Anim.uasset
+[2017.03.28-05.23.31:429][  3]LogSavePackage: Save=1.34ms
+[2017.03.28-05.23.31:429][  3]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_idle1_Skeleton93B112761F03001C001701ABAB51DD4C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_Skeleton.uasset'
+[2017.03.28-05.23.31:430][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_Skeleton.uasset
+[2017.03.28-05.23.31:445][  3]LogSavePackage: Save=10.60ms
+[2017.03.28-05.23.31:445][  3]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_idle1_PhysicsAsset93B48A2D1F03001C001701B3AB51F07F.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_PhysicsAsset.uasset'
+[2017.03.28-05.23.31:446][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1_PhysicsAsset.uasset
+[2017.03.28-05.23.31:475][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v2/char_idle1" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1.uasset" SILENT=true
+[2017.03.28-05.23.31:499][  3]LogSavePackage: Save=22.80ms
+[2017.03.28-05.23.31:499][  3]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_idle193B704661F03001C001701DCAB52902E.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1.uasset'
+[2017.03.28-05.23.31:500][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v2/char_idle1.uasset
+[2017.03.28-05.23.39:256][582]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.28-05.25.12:202][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.28-05.25.12:530][964]Cmd: QUIT_EDITOR
+[2017.03.28-05.25.12:567][964]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.28-05.25.12:575][964]LogExit: Preparing to exit.
+[2017.03.28-05.25.12:823][964]LogExit: Editor shut down
+[2017.03.28-05.25.12:824][964]LogExit: Transaction tracking system shut down
+[2017.03.28-05.25.12:835][964]LogTemp:Display: Removed shader map 0x00007F5454267A00 from material 0x00007F547C7BF600
+[2017.03.28-05.25.12:960][964]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.28-05.25.12:961][964]LogExit: Object subsystem successfully closed.
+[2017.03.28-05.25.13:019][964]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2017.03.28-05.25.13:019][964]LogModuleManager: Shutting down and abandoning module AnimationEditor (462)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module PhAT (460)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module SlateFileDialogs (458)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module SkeletonEditor (456)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (454)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (452)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (450)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module BlueprintGraph (448)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (446)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (444)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module CrashTracker (442)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module SceneOutliner (440)
+[2017.03.28-05.25.13:020][964]LogModuleManager: Shutting down and abandoning module AddContentDialog (438)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module WidgetCarousel (437)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module EditorWidgets (434)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module CollectionManager (432)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module StatsViewer (430)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module FoliageEdit (428)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module LandscapeEditor (426)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (424)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module ActorPickerMode (422)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module GeometryMode (420)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module TextureAlignMode (418)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module BspMode (416)
+[2017.03.28-05.25.13:021][964]LogModuleManager: Shutting down and abandoning module HardwareSurvey (414)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (412)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module SequenceRecorder (410)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AutomationWorker (408)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (406)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (404)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module MfMediaFactory (402)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module MfMediaEditor (400)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (398)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (396)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (394)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module Media (393)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (390)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (388)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module PlacementMode (387)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (384)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module CharacterAI (382)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module SmartSnapping (380)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module SessionServices (378)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module ViewportSnapping (376)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module ViewportInteraction (374)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module LogVisualizer (372)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module IntroTutorials (370)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (369)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (366)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (364)
+[2017.03.28-05.25.13:022][964]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (362)
+[2017.03.28-05.25.13:023][964]LogModuleManager: Shutting down and abandoning module TcpMessaging (361)
+[2017.03.28-05.25.13:235][964]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (359)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (356)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (354)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (352)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module InputBindingEditor (350)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module NiagaraEditor (348)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module MergeActors (346)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module SizeMap (344)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module TreeMap (342)
+[2017.03.28-05.25.14:212][964]LogModuleManager: Shutting down and abandoning module ReferenceViewer (340)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (338)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module LocalizationService (337)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module HardwareTargeting (334)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (332)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module UndoHistory (330)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module UserFeedback (328)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module XmlParser (326)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module Blutility (324)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (322)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (321)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (318)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module SettingsEditor (316)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module ProjectLauncher (314)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module SessionFrontend (312)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module ProfilerClient (310)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module DeviceManager (308)
+[2017.03.28-05.25.14:213][964]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (307)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module AutomationController (304)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module AutomationWindow (302)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module Layers (300)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (298)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module DetailCustomizations (296)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module PackagesDialog (294)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module Persona (292)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module AnimGraph (291)
+[2017.03.28-05.25.14:224][964]LogModuleManager: Shutting down and abandoning module Kismet (288)
+[2017.03.28-05.25.14:245][964]LogModuleManager: Shutting down and abandoning module GraphEditor (286)
+[2017.03.28-05.25.14:245][964]LogModuleManager: Shutting down and abandoning module ClassViewer (284)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module Toolbox (282)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module ModuleUI (280)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module MovieSceneTools (278)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module OutputLog (276)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module GammaUI (274)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module Documentation (272)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module GeometryCache (270)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (269)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module Niagara (266)
+[2017.03.28-05.25.14:247][964]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (264)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module AnalyticsET (262)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module PortalServices (260)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module PortalRpc (258)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module MessagingRpc (256)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module AIModule (254)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module GameplayDebugger (253)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module AITestSuite (251)
+[2017.03.28-05.25.14:248][964]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (242)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (240)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (238)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module SuperSearch (237)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module PluginBrowser (234)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (232)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module EpicSurvey (230)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (228)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (226)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (224)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (222)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (220)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module CableComponent (218)
+[2017.03.28-05.25.14:303][964]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (216)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (212)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (210)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module DesktopPlatform (209)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module GitSourceControl (206)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (204)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module SourceControl (203)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (200)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (198)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (196)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module Paper2DEditor (194)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module MeshPaint (193)
+[2017.03.28-05.25.14:304][964]LogModuleManager: Shutting down and abandoning module LevelEditor (191)
+[2017.03.28-05.25.14:305][964]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (190)
+[2017.03.28-05.25.14:305][964]LogModuleManager: Shutting down and abandoning module MainFrame (188)
+[2017.03.28-05.25.14:305][964]LogModuleManager: Shutting down and abandoning module HotReload (187)
+[2017.03.28-05.25.14:306][964]LogModuleManager: Shutting down and abandoning module ContentBrowser (183)
+[2017.03.28-05.25.14:307][964]LogModuleManager: Shutting down and abandoning module Primer (180)
+[2017.03.28-05.25.14:307][964]LogModuleManager: Shutting down and abandoning module UdpMessaging (178)
+[2017.03.28-05.25.14:407][964]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (176)
+[2017.03.28-05.25.14:407][964]LogModuleManager: Shutting down and abandoning module FacialAnimation (174)
+[2017.03.28-05.25.14:407][964]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (172)
+[2017.03.28-05.25.14:407][964]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (170)
+[2017.03.28-05.25.14:407][964]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (168)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module PhysXVehicles (166)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (164)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module SensibleEditorSourceCodeAccess (162)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (160)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module Paper2D (158)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.03.28-05.25.14:408][964]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module ALAudio (118)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module Core (112)
+[2017.03.28-05.25.14:411][964]LogModuleManager: Shutting down and abandoning module AssetRegistry (110)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (109)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module KismetCompiler (106)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module PhysXFormats (104)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module MeshUtilities (102)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (101)
+[2017.03.28-05.25.14:479][964]LogModuleManager: Shutting down and abandoning module PropertyEditor (99)
+[2017.03.28-05.25.14:480][964]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.03.28-05.25.14:526][964]LogDerivedDataCache: Shutdown
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (93)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (89)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module ImageWrapper (88)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (85)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (75)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (73)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (71)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (69)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (67)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (65)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (63)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (61)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (59)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (57)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (55)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (53)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (51)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (49)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module Settings (44)
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.03.28-05.25.14:527][964]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.28-05.25.14:527][964]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.03.28-05.25.14:527][964]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.28-05.25.14:527][964]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B065DE15F-1B03-121B-0023-025DCE954CB1%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.1-0%2B%2B%2BUE4%2BRelease-4.15&UserID=000283f12b03140d003a007b2ae3db35%7C%7C065e19e87186423fa6bdac6411abf796&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2017.03.28-05.25.14:551][964]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (36)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (32)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module AudioEditor (28)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module TextureCompressor (26)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module ShaderCore (24)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module Landscape (22)
+[2017.03.28-05.25.14:552][964]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (20)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module OpenGLDrv (18)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.28-05.25.14:555][964]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.28-05.25.14:556][964]LogExit: Exiting.
+[2017.03.28-05.25.14:556][964]LogInit: Tearing down SDL.
+[2017.03.28-05.25.14:576][964]Log file closed, 03/28/17 00:25:14
