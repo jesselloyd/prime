@@ -1272,3 +1272,1309 @@ LogInit: Object subsystem initialized
 [2017.03.29-03.02.23:033][681]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataCC3F52691603161C000203AA799550DF.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
 [2017.03.29-03.02.23:034][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
 [2017.03.29-03.02.23:405][723]LogEditorViewport: Clicking Background
+[2017.03.29-03.03.45:048][ 99]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.03.45:508][149]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.44:153][729]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.44:332][747]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.44:631][767]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.45:045][801]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.46:328][951]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.46:792][  1]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.48:926][239]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.55:599][239]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.55:621][239]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/jason/Documents/_repos/Prime/prime/assets/char_anims_1.fbx)
+[2017.03.29-03.04.55:631][239]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.29-03.04.55:631][239]LogFbx: ItemName: NodeAttribute, ItemCount : 27
+[2017.03.29-03.04.55:631][239]LogFbx: ItemName: Geometry, ItemCount : 8
+[2017.03.29-03.04.55:631][239]LogFbx: ItemName: Model, ItemCount : 35
+[2017.03.29-03.04.55:631][239]LogFbx: ItemName: Pose, ItemCount : 8
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: Deformer, ItemCount : 209
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: Material, ItemCount : 7
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: Texture, ItemCount : 7
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: Video, ItemCount : 7
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: AnimationStack, ItemCount : 3
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: AnimationLayer, ItemCount : 3
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: AnimationCurveNode, ItemCount : 243
+[2017.03.29-03.04.55:632][239]LogFbx: ItemName: AnimationCurve, ItemCount : 729
+[2017.03.29-03.04.55:638][239]LogFbx: Loading FBX Scene from /home/jason/Documents/_repos/Prime/prime/assets/char_anims_1.fbx
+[2017.03.29-03.04.55:706][239]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.29-03.04.55:811][239]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.04.59:690][239]LogFbx: Loading FBX Scene from /home/jason/Documents/_repos/Prime/prime/assets/char_anims_1.fbx
+[2017.03.29-03.04.59:755][239]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.29-03.04.59:765][239]LogFbx: =================================================
+[2017.03.29-03.04.59:765][239]LogFbx: Dumping Node START [face.002] 
+[2017.03.29-03.04.59:765][239]LogFbx: 	Total Deformer Count -705837760.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] face.002 (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [face.002]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [face.001] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -705837760.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] face.001 (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [face.001]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [shirt] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] shirt (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [shirt]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [shoes] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] shoes (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [shoes]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [limbs] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] limbs (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [limbs]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [kilt] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Plane.006) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] kilt (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [kilt]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [hair] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: 	Attribute (Plane.002) Type (4).
+[2017.03.29-03.04.59:766][239]LogFbx: 		[Node Attribute Child 1] hair (Type Mesh).
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node END [hair]
+[2017.03.29-03.04.59:766][239]LogFbx: =================================================
+[2017.03.29-03.04.59:766][239]LogFbx: Dumping Node START [origin.001] 
+[2017.03.29-03.04.59:766][239]LogFbx: 	Total Deformer Count -506653952.
+[2017.03.29-03.04.59:767][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:767][239]LogFbx: =================================================
+[2017.03.29-03.04.59:767][239]LogFbx: 	Attribute (Sphere.001) Type (4).
+[2017.03.29-03.04.59:767][239]LogFbx: 		[Node Attribute Child 1] origin.001 (Type Mesh).
+[2017.03.29-03.04.59:767][239]LogFbx: Dumping Node END [origin.001]
+[2017.03.29-03.04.59:767][239]LogFbx: =================================================
+[2017.03.29-03.04.59:767][239]LogFbx: Dumping Node START [face.002] 
+[2017.03.29-03.04.59:767][239]LogFbx: 	Total Deformer Count -705837984.
+[2017.03.29-03.04.59:767][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:767][239]LogFbx: =================================================
+[2017.03.29-03.04.59:767][239]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.29-03.04.59:767][239]LogFbx: 		[Node Attribute Child 1] face.002 (Type Mesh).
+[2017.03.29-03.04.59:767][239]LogFbx: Dumping Node END [face.002]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [face.001] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -705838096.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] face.001 (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [face.001]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [shirt] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] shirt (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [shirt]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [shoes] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] shoes (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [shoes]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [limbs] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] limbs (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [limbs]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [kilt] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Plane.006) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] kilt (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [kilt]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [hair] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -405942624.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Plane.002) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] hair (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [hair]
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node START [origin.001] 
+[2017.03.29-03.04.59:768][239]LogFbx: 	Total Deformer Count -506619904.
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.04.59:768][239]LogFbx: =================================================
+[2017.03.29-03.04.59:768][239]LogFbx: 	Attribute (Sphere.001) Type (4).
+[2017.03.29-03.04.59:768][239]LogFbx: 		[Node Attribute Child 1] origin.001 (Type Mesh).
+[2017.03.29-03.04.59:768][239]LogFbx: Dumping Node END [origin.001]
+[2017.03.29-03.04.59:769][239]LogFbx: Valid bind pose for Pose (Mesh) - face.002
+[2017.03.29-03.04.59:769][239]LogFbx: Valid bind pose for Pose (Mesh.001) - face.002
+[2017.03.29-03.04.59:769][239]LogFbx: Valid bind pose for Pose (Mesh.002) - face.002
+[2017.03.29-03.04.59:770][239]LogFbx: Valid bind pose for Pose (Mesh.003) - face.002
+[2017.03.29-03.04.59:770][239]LogFbx: Valid bind pose for Pose (Mesh.004) - face.002
+[2017.03.29-03.04.59:770][239]LogFbx: Valid bind pose for Pose (Plane.006) - face.002
+[2017.03.29-03.04.59:770][239]LogFbx: Valid bind pose for Pose (Plane.002) - face.002
+[2017.03.29-03.04.59:770][239]LogFbx: Valid bind pose for Pose (Sphere.001) - face.002
+[2017.03.29-03.04.59:773][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/eyes'
+[2017.03.29-03.04.59:774][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/eyes'
+[2017.03.29-03.04.59:774][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/eyes.eyes needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.04.59:777][239]LogMaterial: Missing cached shader map for material eyes, compiling. 
+[2017.03.29-03.04.59:778][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD8584F00 with Material 0x00007F4B32192680 to ShaderMapsBeingCompiled
+[2017.03.29-03.04.59:842][239]LogTemp:Display: Kicking off shader compilation for eyes, GameThreadShaderMap 0x00007F4AD8584F00
+[2017.03.29-03.04.59:844][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.04.59:844][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/open'
+[2017.03.29-03.04.59:845][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/open'
+[2017.03.29-03.04.59:853][239]LogTexture:Display: Building textures: open (AutoDXT, 32X32) - 128 MB total VRAM
+[2017.03.29-03.04.59:865][239]LogMaterial: Missing cached shader map for material eyes, compiling. 
+[2017.03.29-03.04.59:866][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD3A20980 with Material 0x00007F4B32192680 to ShaderMapsBeingCompiled
+[2017.03.29-03.04.59:908][239]LogTemp:Display: Kicking off shader compilation for eyes, GameThreadShaderMap 0x00007F4AD3A20980
+[2017.03.29-03.04.59:910][239]LogFbx: Triangulating skeletal mesh face.002
+[2017.03.29-03.04.59:919][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/mouth'
+[2017.03.29-03.04.59:919][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/mouth'
+[2017.03.29-03.04.59:920][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/mouth.mouth needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.04.59:929][239]LogMaterial: Missing cached shader map for material mouth, compiling. 
+[2017.03.29-03.04.59:930][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD4BAF400 with Material 0x00007F4AF2769500 to ShaderMapsBeingCompiled
+[2017.03.29-03.04.59:978][239]LogTemp:Display: Kicking off shader compilation for mouth, GameThreadShaderMap 0x00007F4AD4BAF400
+[2017.03.29-03.04.59:979][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.04.59:979][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/neutral'
+[2017.03.29-03.04.59:980][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/neutral'
+[2017.03.29-03.04.59:987][239]LogTexture:Display: Building textures: neutral (AutoDXT, 64X32) - 128 MB total VRAM
+[2017.03.29-03.05.00:069][239]LogMaterial: Missing cached shader map for material mouth, compiling. 
+[2017.03.29-03.05.00:070][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD43F4480 with Material 0x00007F4AF2769500 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:117][239]LogTemp:Display: Kicking off shader compilation for mouth, GameThreadShaderMap 0x00007F4AD43F4480
+[2017.03.29-03.05.00:118][239]LogFbx: Triangulating skeletal mesh face.001
+[2017.03.29-03.05.00:121][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/shirt'
+[2017.03.29-03.05.00:121][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/shirt'
+[2017.03.29-03.05.00:122][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/shirt.shirt needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.05.00:126][239]LogMaterial: Missing cached shader map for material shirt, compiling. 
+[2017.03.29-03.05.00:127][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD34DE800 with Material 0x00007F4B53582500 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:176][239]LogTemp:Display: Kicking off shader compilation for shirt, GameThreadShaderMap 0x00007F4AD34DE800
+[2017.03.29-03.05.00:177][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.05.00:178][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/garb'
+[2017.03.29-03.05.00:179][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/garb'
+[2017.03.29-03.05.00:187][239]LogTexture:Display: Building textures: garb (AutoDXT, 64X64) - 128 MB total VRAM
+[2017.03.29-03.05.00:204][239]LogMaterial: Missing cached shader map for material shirt, compiling. 
+[2017.03.29-03.05.00:205][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD2FAB880 with Material 0x00007F4B53582500 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:266][239]LogTemp:Display: Kicking off shader compilation for shirt, GameThreadShaderMap 0x00007F4AD2FAB880
+[2017.03.29-03.05.00:268][239]LogFbx: Triangulating skeletal mesh shirt
+[2017.03.29-03.05.00:277][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/boots'
+[2017.03.29-03.05.00:279][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/boots'
+[2017.03.29-03.05.00:280][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/boots.boots needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.05.00:286][239]LogMaterial: Missing cached shader map for material boots, compiling. 
+[2017.03.29-03.05.00:287][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD2538C00 with Material 0x00007F4ADFC04C80 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:349][239]LogTemp:Display: Kicking off shader compilation for boots, GameThreadShaderMap 0x00007F4AD2538C00
+[2017.03.29-03.05.00:350][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.05.00:362][239]LogTexture:Display: Building textures: boots2 (AutoDXT, 64X64) - 128 MB total VRAM
+[2017.03.29-03.05.00:377][239]LogMaterial: Missing cached shader map for material boots, compiling. 
+[2017.03.29-03.05.00:378][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD8013500 with Material 0x00007F4ADFC04C80 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:435][239]LogTemp:Display: Kicking off shader compilation for boots, GameThreadShaderMap 0x00007F4AD8013500
+[2017.03.29-03.05.00:437][239]LogFbx: Triangulating skeletal mesh shoes
+[2017.03.29-03.05.00:441][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/limbs'
+[2017.03.29-03.05.00:442][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/limbs'
+[2017.03.29-03.05.00:443][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/limbs.limbs needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.05.00:448][239]LogMaterial: Missing cached shader map for material limbs, compiling. 
+[2017.03.29-03.05.00:449][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD1561C80 with Material 0x00007F4AF88E2380 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:515][239]LogTemp:Display: Kicking off shader compilation for limbs, GameThreadShaderMap 0x00007F4AD1561C80
+[2017.03.29-03.05.00:517][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.05.00:518][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/skin'
+[2017.03.29-03.05.00:519][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/skin'
+[2017.03.29-03.05.00:531][239]LogTexture:Display: Building textures: skin (AutoDXT, 64X64) - 128 MB total VRAM
+[2017.03.29-03.05.00:556][239]LogMaterial: Missing cached shader map for material limbs, compiling. 
+[2017.03.29-03.05.00:557][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD0AFF900 with Material 0x00007F4AF88E2380 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:630][239]LogTemp:Display: Kicking off shader compilation for limbs, GameThreadShaderMap 0x00007F4AD0AFF900
+[2017.03.29-03.05.00:631][239]LogFbx: Triangulating skeletal mesh limbs
+[2017.03.29-03.05.00:652][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/kilt'
+[2017.03.29-03.05.00:653][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/kilt'
+[2017.03.29-03.05.00:654][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/kilt.kilt needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.05.00:672][239]LogMaterial: Missing cached shader map for material kilt, compiling. 
+[2017.03.29-03.05.00:673][239]LogTemp:Display: Added material ShaderMap 0x00007F4AD05E4D00 with Material 0x00007F4AE3490C80 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:751][239]LogTemp:Display: Kicking off shader compilation for kilt, GameThreadShaderMap 0x00007F4AD05E4D00
+[2017.03.29-03.05.00:753][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.05.00:765][239]LogTexture:Display: Building textures: kilt2 (AutoDXT, 64X64) - 128 MB total VRAM
+[2017.03.29-03.05.00:792][239]LogMaterial: Missing cached shader map for material kilt, compiling. 
+[2017.03.29-03.05.00:794][239]LogTemp:Display: Added material ShaderMap 0x00007F4ACF653D00 with Material 0x00007F4AE3490C80 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:862][239]LogTemp:Display: Kicking off shader compilation for kilt, GameThreadShaderMap 0x00007F4ACF653D00
+[2017.03.29-03.05.00:863][239]LogFbx: Triangulating skeletal mesh kilt
+[2017.03.29-03.05.00:869][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/hair'
+[2017.03.29-03.05.00:870][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/hair'
+[2017.03.29-03.05.00:871][239]LogMaterial:Warning: Material /Game/GameFiles/3DAssets/Character_v3/hair.hair needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.29-03.05.00:876][239]LogMaterial: Missing cached shader map for material hair, compiling. 
+[2017.03.29-03.05.00:877][239]LogTemp:Display: Added material ShaderMap 0x00007F4ACF121100 with Material 0x00007F4ADAA0C600 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.00:945][239]LogTemp:Display: Kicking off shader compilation for hair, GameThreadShaderMap 0x00007F4ACF121100
+[2017.03.29-03.05.00:947][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.29-03.05.00:955][239]LogTexture:Display: Building textures: hair2 (AutoDXT, 64X64) - 128 MB total VRAM
+[2017.03.29-03.05.00:969][239]LogMaterial: Missing cached shader map for material hair, compiling. 
+[2017.03.29-03.05.00:970][239]LogTemp:Display: Added material ShaderMap 0x00007F4ACE6A6100 with Material 0x00007F4ADAA0C600 to ShaderMapsBeingCompiled
+[2017.03.29-03.05.01:013][239]LogTemp:Display: Kicking off shader compilation for hair, GameThreadShaderMap 0x00007F4ACE6A6100
+[2017.03.29-03.05.01:014][239]LogFbx: Triangulating skeletal mesh hair
+[2017.03.29-03.05.01:017][239]LogFbx: Triangulating skeletal mesh origin.001
+[2017.03.29-03.05.01:033][239]LogFbx:Warning: Bones digested - 40  Depth of hierarchy - 8
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 0: 546 vertices, 2 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 1: 14 vertices, 1 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 2: 440 vertices, 9 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 3: 130 vertices, 4 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 4: 538 vertices, 13 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 5: 137 vertices, 7 active bones
+[2017.03.29-03.05.01:096][239]LogSkeletalMesh: Section 6: 276 vertices, 1 active bones
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 0: Material=0, 1020 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 1: Material=1, 10 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 2: Material=2, 378 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 3: Material=3, 128 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 4: Material=4, 490 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 5: Material=5, 118 triangles
+[2017.03.29-03.05.01:098][239]LogSkeletalMesh: Section 6: Material=6, 150 triangles
+[2017.03.29-03.05.01:102][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_PhysicsAsset'
+[2017.03.29-03.05.01:102][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_PhysicsAsset'
+[2017.03.29-03.05.01:330][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton'
+[2017.03.29-03.05.01:331][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton'
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node START [face.002] 
+[2017.03.29-03.05.01:333][239]LogFbx: 	Total Deformer Count -86924816.
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node Attribute Child 1] face.002 (Type Mesh).
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node END [face.002]
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node START [face.001] 
+[2017.03.29-03.05.01:333][239]LogFbx: 	Total Deformer Count -86924816.
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node Attribute Child 1] face.001 (Type Mesh).
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node END [face.001]
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node START [shirt] 
+[2017.03.29-03.05.01:333][239]LogFbx: 	Total Deformer Count -358632768.
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node Attribute Child 1] shirt (Type Mesh).
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node END [shirt]
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node START [shoes] 
+[2017.03.29-03.05.01:333][239]LogFbx: 	Total Deformer Count -358632768.
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node Attribute Child 1] shoes (Type Mesh).
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node END [shoes]
+[2017.03.29-03.05.01:333][239]LogFbx: =================================================
+[2017.03.29-03.05.01:333][239]LogFbx: Dumping Node START [limbs] 
+[2017.03.29-03.05.01:333][239]LogFbx: 	Total Deformer Count -358584768.
+[2017.03.29-03.05.01:333][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node Attribute Child 1] limbs (Type Mesh).
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node END [limbs]
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node START [kilt] 
+[2017.03.29-03.05.01:334][239]LogFbx: 	Total Deformer Count -358584768.
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: 	Attribute (Plane.006) Type (4).
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node Attribute Child 1] kilt (Type Mesh).
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node END [kilt]
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node START [hair] 
+[2017.03.29-03.05.01:334][239]LogFbx: 	Total Deformer Count -358635072.
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: 	Attribute (Plane.002) Type (4).
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node Attribute Child 1] hair (Type Mesh).
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node END [hair]
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node START [origin.001] 
+[2017.03.29-03.05.01:334][239]LogFbx: 	Total Deformer Count -506610688.
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:334][239]LogFbx: =================================================
+[2017.03.29-03.05.01:334][239]LogFbx: 	Attribute (Sphere.001) Type (4).
+[2017.03.29-03.05.01:334][239]LogFbx: 		[Node Attribute Child 1] origin.001 (Type Mesh).
+[2017.03.29-03.05.01:334][239]LogFbx: Dumping Node END [origin.001]
+[2017.03.29-03.05.01:335][239]LogFbx: =================================================
+[2017.03.29-03.05.01:335][239]LogFbx: Dumping Node START [face.002] 
+[2017.03.29-03.05.01:335][239]LogFbx: 	Total Deformer Count -565887056.
+[2017.03.29-03.05.01:335][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:335][239]LogFbx: =================================================
+[2017.03.29-03.05.01:335][239]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.03.29-03.05.01:335][239]LogFbx: 		[Node Attribute Child 1] face.002 (Type Mesh).
+[2017.03.29-03.05.01:335][239]LogFbx: Dumping Node END [face.002]
+[2017.03.29-03.05.01:335][239]LogFbx: =================================================
+[2017.03.29-03.05.01:335][239]LogFbx: Dumping Node START [face.001] 
+[2017.03.29-03.05.01:335][239]LogFbx: 	Total Deformer Count -86924816.
+[2017.03.29-03.05.01:335][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:335][239]LogFbx: =================================================
+[2017.03.29-03.05.01:335][239]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.03.29-03.05.01:335][239]LogFbx: 		[Node Attribute Child 1] face.001 (Type Mesh).
+[2017.03.29-03.05.01:335][239]LogFbx: Dumping Node END [face.001]
+[2017.03.29-03.05.01:335][239]LogFbx: =================================================
+[2017.03.29-03.05.01:335][239]LogFbx: Dumping Node START [shirt] 
+[2017.03.29-03.05.01:335][239]LogFbx: 	Total Deformer Count -358636512.
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node Attribute Child 1] shirt (Type Mesh).
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node END [shirt]
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node START [shoes] 
+[2017.03.29-03.05.01:336][239]LogFbx: 	Total Deformer Count -358636512.
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node Attribute Child 1] shoes (Type Mesh).
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node END [shoes]
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node START [limbs] 
+[2017.03.29-03.05.01:336][239]LogFbx: 	Total Deformer Count -358632768.
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: 	Attribute (Mesh.004) Type (4).
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node Attribute Child 1] limbs (Type Mesh).
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node END [limbs]
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node START [kilt] 
+[2017.03.29-03.05.01:336][239]LogFbx: 	Total Deformer Count -358632768.
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: 	Attribute (Plane.006) Type (4).
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node Attribute Child 1] kilt (Type Mesh).
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node END [kilt]
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node START [hair] 
+[2017.03.29-03.05.01:336][239]LogFbx: 	Total Deformer Count -358632768.
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:336][239]LogFbx: 	Attribute (Plane.002) Type (4).
+[2017.03.29-03.05.01:336][239]LogFbx: 		[Node Attribute Child 1] hair (Type Mesh).
+[2017.03.29-03.05.01:336][239]LogFbx: Dumping Node END [hair]
+[2017.03.29-03.05.01:336][239]LogFbx: =================================================
+[2017.03.29-03.05.01:337][239]LogFbx: Dumping Node START [origin.001] 
+[2017.03.29-03.05.01:337][239]LogFbx: 	Total Deformer Count -344958592.
+[2017.03.29-03.05.01:337][239]LogFbx: 		[Node 1] skeleton (Type Skin).
+[2017.03.29-03.05.01:337][239]LogFbx: =================================================
+[2017.03.29-03.05.01:337][239]LogFbx: 	Attribute (Sphere.001) Type (4).
+[2017.03.29-03.05.01:337][239]LogFbx: 		[Node Attribute Child 1] origin.001 (Type Mesh).
+[2017.03.29-03.05.01:337][239]LogFbx: Dumping Node END [origin.001]
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(0) skeleton
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(1) master
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(2) leg_ik_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(3) foot_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(4) foot_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(5) arm_ik_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(6) arm_ik_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(7) knee_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(8) knee_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(9) elbow_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(10) elbow_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(11) leg_ik_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(12) foot_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(13) foot_r_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(14) arm_ik_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(15) arm_ik_r_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(16) knee_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(17) knee_r_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(18) elbow_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(19) elbow_r_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(20) pelvis
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(21) spine_1
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(22) spine_2
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(23) neck
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(24) head
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(25) head_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(26) upper_leg_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(27) lower_leg_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(28) lower_leg_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(29) upper_arm_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(30) forearm_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(31) hand_l
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(32) hand_l_end
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(33) upper_leg_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(34) lower_leg_r
+[2017.03.29-03.05.01:337][239]LogFbx: SortedLinks :(35) lower_leg_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(36) upper_arm_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(37) forearm_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(38) hand_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(39) hand_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(0) skeleton
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(1) master
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(2) leg_ik_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(3) foot_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(4) foot_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(5) arm_ik_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(6) arm_ik_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(7) knee_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(8) knee_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(9) elbow_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(10) elbow_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(11) leg_ik_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(12) foot_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(13) foot_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(14) arm_ik_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(15) arm_ik_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(16) knee_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(17) knee_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(18) elbow_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(19) elbow_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(20) pelvis
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(21) spine_1
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(22) spine_2
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(23) neck
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(24) head
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(25) head_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(26) upper_leg_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(27) lower_leg_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(28) lower_leg_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(29) upper_arm_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(30) forearm_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(31) hand_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(32) hand_l_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(33) upper_leg_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(34) lower_leg_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(35) lower_leg_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(36) upper_arm_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(37) forearm_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(38) hand_r
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(39) hand_r_end
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(0) skeleton
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(1) master
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(2) leg_ik_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(3) foot_l
+[2017.03.29-03.05.01:338][239]LogFbx: SortedLinks :(4) foot_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(5) arm_ik_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(6) arm_ik_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(7) knee_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(8) knee_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(9) elbow_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(10) elbow_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(11) leg_ik_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(12) foot_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(13) foot_r_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(14) arm_ik_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(15) arm_ik_r_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(16) knee_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(17) knee_r_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(18) elbow_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(19) elbow_r_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(20) pelvis
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(21) spine_1
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(22) spine_2
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(23) neck
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(24) head
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(25) head_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(26) upper_leg_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(27) lower_leg_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(28) lower_leg_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(29) upper_arm_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(30) forearm_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(31) hand_l
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(32) hand_l_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(33) upper_leg_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(34) lower_leg_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(35) lower_leg_r_end
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(36) upper_arm_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(37) forearm_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(38) hand_r
+[2017.03.29-03.05.01:339][239]LogFbx: SortedLinks :(39) hand_r_end
+[2017.03.29-03.05.01:343][239]LogFbx: Parsing AnimStack skeleton|Idle
+[2017.03.29-03.05.01:348][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle'
+[2017.03.29-03.05.01:349][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle'
+[2017.03.29-03.05.01:601][239]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle.char_anims_1_Anim_skeleton_Idle
+[2017.03.29-03.05.01:607][239]LogFbx: Parsing AnimStack skeleton|Run
+[2017.03.29-03.05.01:614][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run'
+[2017.03.29-03.05.01:615][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run'
+[2017.03.29-03.05.01:765][239]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.char_anims_1_Anim_skeleton_Run
+[2017.03.29-03.05.01:770][239]LogFbx: Parsing AnimStack skeleton|skeletonAction
+[2017.03.29-03.05.01:776][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction'
+[2017.03.29-03.05.01:777][239]LogLinker: Can't find file '/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction'
+[2017.03.29-03.05.01:839][239]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction.char_anims_1_Anim_skeleton_skeletonAction
+[2017.03.29-03.05.01:868][239]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.29-03.05.01:868][239]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+foot_l_end  
+arm_ik_l_end  
+knee_l_end  
+elbow_l_end  
+foot_r_end  
+arm_ik_r_end  
+knee_r_end  
+elbow_r_end  
+head_end  
+lower_leg_l_end  
+hand_l_end  
+lower_leg_r_end  
+hand_r_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.03.29-03.05.01:868][239]FBXImport:Warning: Warning Mesh 'origin.001' has no UV set. Creating a default set. 
+[2017.03.29-03.05.01:868][239]FBXImport:Warning: Warning The bone size is too small to create Physics Asset 'char_anims_1_PhysicsAsset' from Skeletal Mesh 'char_anims_1'. You will have to create physics asset manually. 
+[2017.03.29-03.05.02:101][241]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.05.03:243][274]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.05.06:933][409]LogTemp:Display: Finished compile of shader map 0x00007F4AD8584F00
+[2017.03.29-03.05.06:933][409]LogTemp:Display: Shader map eyes complete, GameThreadShaderMap 0x00007F4AD8584F00, marking material eyes as finished
+[2017.03.29-03.05.06:933][409]LogTemp:Display: Marking material as finished 0x00007F4B32192680
+[2017.03.29-03.05.19:372][248]LogTemp:Display: Finished compile of shader map 0x00007F4AD3A20980
+[2017.03.29-03.05.19:372][248]LogTemp:Display: Shader map eyes complete, GameThreadShaderMap 0x00007F4AD3A20980, marking material eyes as finished
+[2017.03.29-03.05.19:372][248]LogTemp:Display: Marking material as finished 0x00007F4B32192680
+[2017.03.29-03.05.26:424][857]LogTemp:Display: Finished compile of shader map 0x00007F4AD43F4480
+[2017.03.29-03.05.26:424][857]LogTemp:Display: Shader map mouth complete, GameThreadShaderMap 0x00007F4AD43F4480, marking material mouth as finished
+[2017.03.29-03.05.26:424][857]LogTemp:Display: Marking material as finished 0x00007F4AF2769500
+[2017.03.29-03.05.33:184][142]LogTemp:Display: Finished compile of shader map 0x00007F4AD2FAB880
+[2017.03.29-03.05.33:184][142]LogTemp:Display: Shader map shirt complete, GameThreadShaderMap 0x00007F4AD2FAB880, marking material shirt as finished
+[2017.03.29-03.05.33:184][142]LogTemp:Display: Marking material as finished 0x00007F4B53582500
+[2017.03.29-03.05.42:742][796]LogTemp:Display: Finished compile of shader map 0x00007F4AD8013500
+[2017.03.29-03.05.42:742][796]LogTemp:Display: Shader map boots complete, GameThreadShaderMap 0x00007F4AD8013500, marking material boots as finished
+[2017.03.29-03.05.42:742][796]LogTemp:Display: Marking material as finished 0x00007F4ADFC04C80
+[2017.03.29-03.05.49:471][193]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.05.49:471][193]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.03.29-03.05.49:585][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.29-03.05.49:982][194]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1408976).
+[2017.03.29-03.05.50:596][212]LogTemp:Display: Finished compile of shader map 0x00007F4AD0AFF900
+[2017.03.29-03.05.50:596][212]LogTemp:Display: Shader map limbs complete, GameThreadShaderMap 0x00007F4AD0AFF900, marking material limbs as finished
+[2017.03.29-03.05.50:596][212]LogTemp:Display: Marking material as finished 0x00007F4AF88E2380
+[2017.03.29-03.05.59:231][732]LogTemp:Display: Finished compile of shader map 0x00007F4ACF653D00
+[2017.03.29-03.05.59:232][732]LogTemp:Display: Shader map kilt complete, GameThreadShaderMap 0x00007F4ACF653D00, marking material kilt as finished
+[2017.03.29-03.05.59:232][732]LogTemp:Display: Marking material as finished 0x00007F4AE3490C80
+[2017.03.29-03.06.04:677][ 99]LogTemp:Display: Finished compile of shader map 0x00007F4ACE6A6100
+[2017.03.29-03.06.04:677][ 99]LogTemp:Display: Shader map hair complete, GameThreadShaderMap 0x00007F4ACE6A6100, marking material hair as finished
+[2017.03.29-03.06.04:677][ 99]LogTemp:Display: Marking material as finished 0x00007F4ADAA0C600
+[2017.03.29-03.06.44:168][493]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.06.44:199][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.03.29-03.06.58:514][773]LogRenderer: Reallocating scene render targets to support 1308x900 NumSamples 1 (Frame:1415637).
+[2017.03.29-03.07.02:701][146]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.07:095][483]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.09:672][630]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.20:763][832]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.27:660][435]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.39:671][573]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.41:533][783]LogAnimation:Warning: AnimBP BipedalCharacterAnimBP_C is incompatible with skeleton char_anims_1_Skeleton, removing AnimBP from actor.
+[2017.03.29-03.07.41:534][783]LogAnimation:Warning: AnimBP BipedalCharacterAnimBP_C is incompatible with skeleton char_anims_1_Skeleton, removing AnimBP from actor.
+[2017.03.29-03.07.41:534][783]LogAnimation:Warning: AnimBP BipedalCharacterAnimBP_C is incompatible with skeleton char_anims_1_Skeleton, removing AnimBP from actor.
+[2017.03.29-03.07.57:315][564]BlueprintLog: New page: Compile HeroCharacter
+[2017.03.29-03.07.58:878][700]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.07.58:907][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
+[2017.03.29-03.07.58:982][700]LogSavePackage: Save=71.88ms
+[2017.03.29-03.07.58:983][700]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterCF4D8E303A03161C0007038F8D9BE73F.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
+[2017.03.29-03.07.58:984][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
+[2017.03.29-03.08.01:011][916]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-03.08.01:028][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.08.01:028][916]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 5:08:01 PM)
+[2017.03.29-03.08.01:028][916]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-03.08.01:031][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2017.03.29-03.08.01:031][916]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-03.08.01:031][916]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.03.29-03.08.01:031][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003533s)
+[2017.03.29-03.08.01:053][916]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-03.08.01:054][916]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-03.08.01:054][916]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-03.08.01:054][916]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-03.08.01:054][916]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-03.08.01:054][916]LogInit: FAudioDevice initialized.
+[2017.03.29-03.08.01:090][916]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-03.08.01:092][916]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-22.08.01
+[2017.03.29-03.08.01:092][916]LogWorld: Bringing up level for play took: 0.000875
+[2017.03.29-03.08.01:094][916]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.069
+[2017.03.29-03.08.10:536][983]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-03.08.51:813][572]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.08.52:139][608]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.08.53:570][732]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.08.54:060][787]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.02:374][691]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.02:742][733]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.05:837][ 87]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.07:433][264]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.10:108][571]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.13:304][820]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.15:325][ 16]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.15:586][ 44]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.22:935][882]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.35:037][265]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.35:386][304]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.36:655][429]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.37:661][542]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.37:679][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.38:879][655]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.40:259][806]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.45:199][167]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.53:225][988]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.53:280][988]LogSavePackage: Save=19.29ms
+[2017.03.29-03.09.53:280][988]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpaceCF65744B3503161C00090105946CBF0F.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-03.09.53:281][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-03.09.54:081][ 49]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.09.54:100][ 49]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.03.29-03.10.02:290][699]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.04:944][925]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.07:216][119]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.08:998][240]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.11:773][506]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.13:563][646]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.29:623][153]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.10.31:769][348]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.13.00:665][241]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.13.09:075][847]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.13.09:094][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameFiles/Maps/BasicArena' took 0.018
+[2017.03.29-03.13.09:096][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1] ([1] browsable assets)...
+[2017.03.29-03.13.09:130][847]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/GameFiles/3DAssets/Character_v3/char_anims_1.char_anims_1]
+[2017.03.29-03.13.09:131][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1]
+[2017.03.29-03.13.09:157][847]LogSavePackage: Save=24.85ms
+[2017.03.29-03.13.09:157][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Auto5CF8779A70903161C000D0084A0197E1D.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Auto5.uasset'
+[2017.03.29-03.13.09:157][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Auto5.uasset
+[2017.03.29-03.13.09:158][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/eyes] ([1] browsable assets)...
+[2017.03.29-03.13.09:186][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/eyes.eyes]
+[2017.03.29-03.13.09:186][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/eyes]
+[2017.03.29-03.13.09:211][847]LogSavePackage: Save=23.49ms
+[2017.03.29-03.13.09:211][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/eyes_Auto5CF8AF1020903161C000D00BBA01A544E.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/eyes_Auto5.uasset'
+[2017.03.29-03.13.09:212][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/eyes_Auto5.uasset
+[2017.03.29-03.13.09:213][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/open] ([1] browsable assets)...
+[2017.03.29-03.13.09:213][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/open.open]
+[2017.03.29-03.13.09:213][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/open]
+[2017.03.29-03.13.09:218][847]LogSavePackage: Save=3.52ms
+[2017.03.29-03.13.09:218][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/open_Auto5CF8D01AC0903161C000D00D7A01ABA8E.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/open_Auto5.uasset'
+[2017.03.29-03.13.09:219][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/open_Auto5.uasset
+[2017.03.29-03.13.09:220][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/mouth] ([1] browsable assets)...
+[2017.03.29-03.13.09:247][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/mouth.mouth]
+[2017.03.29-03.13.09:247][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/mouth]
+[2017.03.29-03.13.09:276][847]LogSavePackage: Save=27.57ms
+[2017.03.29-03.13.09:276][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/mouth_Auto5CF90D9FE0903161C000D00F9A01B4559.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/mouth_Auto5.uasset'
+[2017.03.29-03.13.09:277][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/mouth_Auto5.uasset
+[2017.03.29-03.13.09:278][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/neutral] ([1] browsable assets)...
+[2017.03.29-03.13.09:279][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/neutral.neutral]
+[2017.03.29-03.13.09:279][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/neutral]
+[2017.03.29-03.13.09:282][847]LogSavePackage: Save=2.10ms
+[2017.03.29-03.13.09:282][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/neutral_Auto5CF934D770903161C000D0118A01BB989.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/neutral_Auto5.uasset'
+[2017.03.29-03.13.09:283][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/neutral_Auto5.uasset
+[2017.03.29-03.13.09:284][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/shirt] ([1] browsable assets)...
+[2017.03.29-03.13.09:313][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/shirt.shirt]
+[2017.03.29-03.13.09:313][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/shirt]
+[2017.03.29-03.13.09:340][847]LogSavePackage: Save=23.92ms
+[2017.03.29-03.13.09:340][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/shirt_Auto5CF964B550903161C000D013CA01C4E30.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/shirt_Auto5.uasset'
+[2017.03.29-03.13.09:341][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/shirt_Auto5.uasset
+[2017.03.29-03.13.09:342][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/garb] ([1] browsable assets)...
+[2017.03.29-03.13.09:343][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/garb.garb]
+[2017.03.29-03.13.09:343][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/garb]
+[2017.03.29-03.13.09:346][847]LogSavePackage: Save=2.57ms
+[2017.03.29-03.13.09:346][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/garb_Auto5CF99B24E0903161C000D0158A01CB262.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/garb_Auto5.uasset'
+[2017.03.29-03.13.09:347][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/garb_Auto5.uasset
+[2017.03.29-03.13.09:348][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/boots] ([1] browsable assets)...
+[2017.03.29-03.13.09:375][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/boots.boots]
+[2017.03.29-03.13.09:375][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/boots]
+[2017.03.29-03.13.09:399][847]LogSavePackage: Save=23.47ms
+[2017.03.29-03.13.09:399][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/boots_Auto5CF9CE3BB0903161C000D0178A01D3573.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/boots_Auto5.uasset'
+[2017.03.29-03.13.09:400][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/boots_Auto5.uasset
+[2017.03.29-03.13.09:401][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/boots2] ([1] browsable assets)...
+[2017.03.29-03.13.09:402][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/boots2.boots2]
+[2017.03.29-03.13.09:402][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/boots2]
+[2017.03.29-03.13.09:407][847]LogSavePackage: Save=3.30ms
+[2017.03.29-03.13.09:407][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/boots2_Auto5CF9F6FE80903161C000D0194A01DA734.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/boots2_Auto5.uasset'
+[2017.03.29-03.13.09:408][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/boots2_Auto5.uasset
+[2017.03.29-03.13.09:409][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/limbs] ([1] browsable assets)...
+[2017.03.29-03.13.09:435][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/limbs.limbs]
+[2017.03.29-03.13.09:435][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/limbs]
+[2017.03.29-03.13.09:459][847]LogSavePackage: Save=22.42ms
+[2017.03.29-03.13.09:459][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/limbs_Auto5CFA29EC50903161C000D01B5A01E2740.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/limbs_Auto5.uasset'
+[2017.03.29-03.13.09:460][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/limbs_Auto5.uasset
+[2017.03.29-03.13.09:461][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/skin] ([1] browsable assets)...
+[2017.03.29-03.13.09:463][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/skin.skin]
+[2017.03.29-03.13.09:463][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/skin]
+[2017.03.29-03.13.09:467][847]LogSavePackage: Save=2.79ms
+[2017.03.29-03.13.09:467][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/skin_Auto5CFA5E09F0903161C000D01D0A01E8C92.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/skin_Auto5.uasset'
+[2017.03.29-03.13.09:467][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/skin_Auto5.uasset
+[2017.03.29-03.13.09:468][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/kilt] ([1] browsable assets)...
+[2017.03.29-03.13.09:495][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/kilt.kilt]
+[2017.03.29-03.13.09:495][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/kilt]
+[2017.03.29-03.13.09:524][847]LogSavePackage: Save=28.47ms
+[2017.03.29-03.13.09:524][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/kilt_Auto5CFA800210903161C000D01F0A01F0F41.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/kilt_Auto5.uasset'
+[2017.03.29-03.13.09:525][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/kilt_Auto5.uasset
+[2017.03.29-03.13.09:527][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/kilt2] ([1] browsable assets)...
+[2017.03.29-03.13.09:528][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/kilt2.kilt2]
+[2017.03.29-03.13.09:528][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/kilt2]
+[2017.03.29-03.13.09:532][847]LogSavePackage: Save=2.65ms
+[2017.03.29-03.13.09:532][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/kilt2_Auto5CFAB253B0903161C000D0211A01F8E61.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/kilt2_Auto5.uasset'
+[2017.03.29-03.13.09:532][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/kilt2_Auto5.uasset
+[2017.03.29-03.13.09:533][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/hair] ([1] browsable assets)...
+[2017.03.29-03.13.09:558][847]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GameFiles/3DAssets/Character_v3/hair.hair]
+[2017.03.29-03.13.09:558][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/hair]
+[2017.03.29-03.13.09:583][847]LogSavePackage: Save=24.18ms
+[2017.03.29-03.13.09:583][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/hair_Auto5CFAED1AB0903161C000D022FA02007FD.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/hair_Auto5.uasset'
+[2017.03.29-03.13.09:584][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/hair_Auto5.uasset
+[2017.03.29-03.13.09:585][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/hair2] ([1] browsable assets)...
+[2017.03.29-03.13.09:587][847]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GameFiles/3DAssets/Character_v3/hair2.hair2]
+[2017.03.29-03.13.09:587][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/hair2]
+[2017.03.29-03.13.09:592][847]LogSavePackage: Save=4.15ms
+[2017.03.29-03.13.09:592][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/hair2_Auto5CFB1E0EE0903161C000D024CA0206860.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/hair2_Auto5.uasset'
+[2017.03.29-03.13.09:593][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/hair2_Auto5.uasset
+[2017.03.29-03.13.09:594][847]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton] ([1] browsable assets)...
+[2017.03.29-03.13.09:594][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton]
+[2017.03.29-03.13.09:596][847]LogSavePackage: Save=1.41ms
+[2017.03.29-03.13.09:596][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Skeleton_Auto5CFB4AC780903161C000D0253A0208D21.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton_Auto5.uasset'
+[2017.03.29-03.13.09:597][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton_Auto5.uasset
+[2017.03.29-03.13.09:598][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle] ([1] browsable assets)...
+[2017.03.29-03.13.09:625][847]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle.char_anims_1_Anim_skeleton_Idle]
+[2017.03.29-03.13.09:625][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle]
+[2017.03.29-03.13.09:651][847]LogSavePackage: Save=25.32ms
+[2017.03.29-03.13.09:651][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_Idle_Auto5CFB78A3D0903161C000D0272A021036A.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle_Auto5.uasset'
+[2017.03.29-03.13.09:652][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle_Auto5.uasset
+[2017.03.29-03.13.09:653][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run] ([1] browsable assets)...
+[2017.03.29-03.13.09:680][847]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.char_anims_1_Anim_skeleton_Run]
+[2017.03.29-03.13.09:680][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run]
+[2017.03.29-03.13.09:704][847]LogSavePackage: Save=23.16ms
+[2017.03.29-03.13.09:704][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_Run_Auto5CFB93D670903161C000D02A9A021DBE3.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run_Auto5.uasset'
+[2017.03.29-03.13.09:705][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run_Auto5.uasset
+[2017.03.29-03.13.09:707][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction] ([1] browsable assets)...
+[2017.03.29-03.13.09:734][847]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction.char_anims_1_Anim_skeleton_skeletonAction]
+[2017.03.29-03.13.09:735][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction]
+[2017.03.29-03.13.09:760][847]LogSavePackage: Save=22.45ms
+[2017.03.29-03.13.09:760][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_skeletonAction_Auto5CFBB2CE60903161C000D02E1A022B073.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction_Auto5.uasset'
+[2017.03.29-03.13.09:761][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction_Auto5.uasset
+[2017.03.29-03.13.09:761][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace] ([1] browsable assets)...
+[2017.03.29-03.13.09:788][847]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.CharBlendSpace]
+[2017.03.29-03.13.09:789][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace]
+[2017.03.29-03.13.09:813][847]LogSavePackage: Save=20.38ms
+[2017.03.29-03.13.09:813][847]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace_Auto5CFBD96A90903161C000D0318A02389F3.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace_Auto5.uasset'
+[2017.03.29-03.13.09:813][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace_Auto5.uasset
+[2017.03.29-03.13.09:814][847]LogFileHelpers: Auto-saving content packages took 0.719
+[2017.03.29-03.15.39:743][464]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.15.39:784][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/char_anims_1" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1.uasset" SILENT=true
+[2017.03.29-03.15.39:812][464]LogSavePackage: Save=27.20ms
+[2017.03.29-03.15.39:812][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1CFBF0CF52703161C000F0311A91444E6.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1.uasset'
+[2017.03.29-03.15.39:813][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1.uasset
+[2017.03.29-03.15.39:849][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/eyes" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/eyes.uasset" SILENT=true
+[2017.03.29-03.15.39:875][464]LogSavePackage: Save=25.10ms
+[2017.03.29-03.15.39:875][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/eyesCFC1A30A2703161C000F0352A9154694.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/eyes.uasset'
+[2017.03.29-03.15.39:876][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/eyes.uasset
+[2017.03.29-03.15.39:881][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/open" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/open.uasset" SILENT=true
+[2017.03.29-03.15.39:886][464]LogSavePackage: Save=4.66ms
+[2017.03.29-03.15.39:886][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/openCFC328A32703161C000F0372A915BAB1.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/open.uasset'
+[2017.03.29-03.15.39:888][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/open.uasset
+[2017.03.29-03.15.39:917][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/mouth" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/mouth.uasset" SILENT=true
+[2017.03.29-03.15.39:944][464]LogSavePackage: Save=25.25ms
+[2017.03.29-03.15.39:944][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/mouthCFC55FC92703161C000F0396A9164BCE.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/mouth.uasset'
+[2017.03.29-03.15.39:945][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/mouth.uasset
+[2017.03.29-03.15.39:949][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/neutral" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/neutral.uasset" SILENT=true
+[2017.03.29-03.15.39:953][464]LogSavePackage: Save=2.84ms
+[2017.03.29-03.15.39:953][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/neutralCFC73FBC2703161C000F03B6A916CE7A.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/neutral.uasset'
+[2017.03.29-03.15.39:954][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/neutral.uasset
+[2017.03.29-03.15.39:988][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/shirt" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/shirt.uasset" SILENT=true
+[2017.03.29-03.15.40:014][464]LogSavePackage: Save=24.89ms
+[2017.03.29-03.15.40:014][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/shirtCFC91BE82703161C000F03DDA91758BE.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/shirt.uasset'
+[2017.03.29-03.15.40:015][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/shirt.uasset
+[2017.03.29-03.15.40:024][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/garb" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/garb.uasset" SILENT=true
+[2017.03.29-03.15.40:029][464]LogSavePackage: Save=4.20ms
+[2017.03.29-03.15.40:029][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/garbCFCB39E52803161C000F0019A917EBFC.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/garb.uasset'
+[2017.03.29-03.15.40:030][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/garb.uasset
+[2017.03.29-03.15.40:066][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/boots" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots.uasset" SILENT=true
+[2017.03.29-03.15.40:090][464]LogSavePackage: Save=23.56ms
+[2017.03.29-03.15.40:090][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/bootsCFCDE3262803161C000F0043A91897B4.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots.uasset'
+[2017.03.29-03.15.40:093][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots.uasset
+[2017.03.29-03.15.40:099][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/boots2" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots2.uasset" SILENT=true
+[2017.03.29-03.15.40:104][464]LogSavePackage: Save=3.79ms
+[2017.03.29-03.15.40:104][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/boots2CFCF745F2803161C000F0064A9191535.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots2.uasset'
+[2017.03.29-03.15.40:105][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/boots2.uasset
+[2017.03.29-03.15.40:139][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/limbs" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/limbs.uasset" SILENT=true
+[2017.03.29-03.15.40:164][464]LogSavePackage: Save=23.52ms
+[2017.03.29-03.15.40:164][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/limbsCFD1DD232803161C000F008CA919A8DF.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/limbs.uasset'
+[2017.03.29-03.15.40:165][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/limbs.uasset
+[2017.03.29-03.15.40:173][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/skin" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/skin.uasset" SILENT=true
+[2017.03.29-03.15.40:178][464]LogSavePackage: Save=4.05ms
+[2017.03.29-03.15.40:178][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/skinCFD3493B2803161C000F00AEA91A36B7.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/skin.uasset'
+[2017.03.29-03.15.40:179][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/skin.uasset
+[2017.03.29-03.15.40:212][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/kilt" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt.uasset" SILENT=true
+[2017.03.29-03.15.40:239][464]LogSavePackage: Save=25.44ms
+[2017.03.29-03.15.40:239][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/kiltCFD519AF2803161C000F00D6A91ACAD8.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt.uasset'
+[2017.03.29-03.15.40:240][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt.uasset
+[2017.03.29-03.15.40:248][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/kilt2" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt2.uasset" SILENT=true
+[2017.03.29-03.15.40:253][464]LogSavePackage: Save=4.38ms
+[2017.03.29-03.15.40:253][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/kilt2CFD7B76D2803161C000F00F9A91B5072.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt2.uasset'
+[2017.03.29-03.15.40:254][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/kilt2.uasset
+[2017.03.29-03.15.40:285][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/hair" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair.uasset" SILENT=true
+[2017.03.29-03.15.40:311][464]LogSavePackage: Save=25.24ms
+[2017.03.29-03.15.40:311][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/hairCFD9055B2803161C000F011EA91BEE90.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair.uasset'
+[2017.03.29-03.15.40:313][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair.uasset
+[2017.03.29-03.15.40:318][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/3DAssets/Character_v3/hair2" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair2.uasset" SILENT=true
+[2017.03.29-03.15.40:325][464]LogSavePackage: Save=4.73ms
+[2017.03.29-03.15.40:325][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/hair2CFDB5C0D2803161C000F0140A91C6A0E.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair2.uasset'
+[2017.03.29-03.15.40:326][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/hair2.uasset
+[2017.03.29-03.15.40:333][464]LogSavePackage: Save=1.69ms
+[2017.03.29-03.15.40:333][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_SkeletonCFDD210B2803161C000F014BA91C9E6F.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton.uasset'
+[2017.03.29-03.15.40:335][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Skeleton.uasset
+[2017.03.29-03.15.40:396][464]LogSavePackage: Save=24.35ms
+[2017.03.29-03.15.40:396][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_IdleCFDF1B712803161C000F0173A91D323E.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle.uasset'
+[2017.03.29-03.15.40:397][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Idle.uasset
+[2017.03.29-03.15.40:457][464]LogSavePackage: Save=24.20ms
+[2017.03.29-03.15.40:457][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_RunCFE17E5A2803161C000F01B1A91E20F3.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.uasset'
+[2017.03.29-03.15.40:458][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.uasset
+[2017.03.29-03.15.40:518][464]LogSavePackage: Save=21.73ms
+[2017.03.29-03.15.40:518][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_skeletonActionCFE364ED2803161C000F01F0A91F1BA6.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction.uasset'
+[2017.03.29-03.15.40:519][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_skeletonAction.uasset
+[2017.03.29-03.15.40:575][464]LogSavePackage: Save=20.16ms
+[2017.03.29-03.15.40:575][464]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpaceCFE5D5E32803161C000F022AA92006C5.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-03.15.40:576][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-03.15.53:069][321]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.06:497][108]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.06:557][110]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.19:833][266]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.20:222][308]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.21:319][393]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.23:206][574]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.46:342][574]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.16.56:850][574]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.43:535][574]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.50:410][711]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.52:552][711]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.54:945][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:946][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_NewAnimBlueprint' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:946][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_CFF273E63003161C00110231B0C13E7C' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:947][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:947][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:949][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:950][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewAnimBlueprint_C_3' or package '/Engine/Transient'.
+[2017.03.29-03.17.54:950][711]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewAnimBlueprint_C_2' or package '/Engine/Transient'.
+[2017.03.29-03.17.56:670][807]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.56:998][843]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.17.58:442][984]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.00:740][204]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.00:773][204]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.12:249][535]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.20:849][ 35]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.20:853][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.29-03.18.20:900][ 35]LogSavePackage: Save=25.64ms
+[2017.03.29-03.18.20:900][ 35]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArenaD04AB4931403161C0012036AB2AE4EF1.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
+[2017.03.29-03.18.20:900][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
+[2017.03.29-03.18.20:936][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
+[2017.03.29-03.18.21:039][ 35]LogSavePackage: Save=99.16ms
+[2017.03.29-03.18.21:039][ 35]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataD04CF0B11403161C001203ACB2AF4DB9.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
+[2017.03.29-03.18.21:040][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
+[2017.03.29-03.18.22:157][ 82]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.22:225][ 82]LogSavePackage: Save=27.61ms
+[2017.03.29-03.18.22:225][ 82]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharAnimBPD04F24CA1603161C001200C6B2C27C8C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharAnimBP.uasset'
+[2017.03.29-03.18.22:226][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharAnimBP.uasset
+[2017.03.29-03.18.22:985][112]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.23:014][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.03.29-03.18.23:829][113]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.25:125][128]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.18.28:753][504]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.19.39:033][834]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.09:055][301]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.18:053][147]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.18:489][171]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.23:581][661]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.32:274][655]BlueprintLog: New page: Compile CharAnimBP
+[2017.03.29-03.27.32:374][655]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.03.29-03.27.45:454][168]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.45:760][190]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.27.50:724][684]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.00:311][673]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.03:409][974]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.03:979][ 35]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.05:585][212]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.07:188][365]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.45:712][154]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.45:737][154]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.03.29-03.28.50:670][566]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.52:229][689]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.57:653][226]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.28.57:661][226]LogSavePackage: Save=1.85ms
+[2017.03.29-03.28.57:661][226]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpaceD1EBBC303903161C001C0293D8A2DE5C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-03.28.57:662][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-03.29.14:303][914]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.14:397][917]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.26:019][ 95]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.26:439][125]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.52:660][907]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.52:969][928]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.29.57:896][387]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.30.04:388][ 20]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.31.02:724][594]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.31.04:938][793]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.32.00:585][690]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.01:711][616]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.02:750][709]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.05:013][942]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.05:874][ 15]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.20:961][544]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.22:076][643]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.26:209][ 48]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.33.39:716][529]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.04:402][126]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.20:297][697]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.32:825][ 11]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.33:586][ 72]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.38:600][522]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.39:425][589]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.51:353][845]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.54:772][141]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.34.58:557][534]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.01:017][758]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.07:546][429]BlueprintLog: New page: Compile CharAnimBP
+[2017.03.29-03.35.08:241][468]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.08:317][468]LogSavePackage: Save=39.32ms
+[2017.03.29-03.35.08:317][468]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharAnimBPD4B69A640803161C00230115EEBA0E19.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharAnimBP.uasset'
+[2017.03.29-03.35.08:319][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharAnimBP.uasset
+[2017.03.29-03.35.16:291][269]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-03.35.16:309][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.35.16:309][269]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 5:35:16 PM)
+[2017.03.29-03.35.16:309][269]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-03.35.16:312][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002803s)
+[2017.03.29-03.35.16:313][269]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-03.35.16:313][269]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.03.29-03.35.16:313][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003652s)
+[2017.03.29-03.35.16:338][269]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-03.35.16:339][269]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-03.35.16:339][269]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-03.35.16:339][269]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-03.35.16:339][269]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-03.35.16:339][269]LogInit: FAudioDevice initialized.
+[2017.03.29-03.35.16:379][269]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-03.35.16:381][269]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-22.35.16
+[2017.03.29-03.35.16:381][269]LogWorld: Bringing up level for play took: 0.001048
+[2017.03.29-03.35.16:383][269]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.077
+[2017.03.29-03.35.18:505][464]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-03.35.33:015][645]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.29-03.35.33:077][647]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.37:933][159]BlueprintLog: New page: Compile HeroCharacter
+[2017.03.29-03.35.39:244][241]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.39:277][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
+[2017.03.29-03.35.39:362][241]LogSavePackage: Save=81.55ms
+[2017.03.29-03.35.39:362][241]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterD707425F2703161C00230119F09319D8.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
+[2017.03.29-03.35.39:364][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
+[2017.03.29-03.35.41:679][439]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.35.41:687][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.29-03.35.41:740][439]LogSavePackage: Save=28.98ms
+[2017.03.29-03.35.41:740][439]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArenaD709BE952903161C002302C7F0B8362D.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
+[2017.03.29-03.35.41:741][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
+[2017.03.29-03.35.41:776][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
+[2017.03.29-03.35.41:876][439]LogSavePackage: Save=96.47ms
+[2017.03.29-03.35.41:877][439]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataD70BFC552903161C0023030CF0B94799.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
+[2017.03.29-03.35.41:877][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
+[2017.03.29-03.35.42:703][518]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-03.35.42:722][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.35.42:722][518]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 5:35:42 PM)
+[2017.03.29-03.35.42:722][518]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-03.35.42:725][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002822s)
+[2017.03.29-03.35.42:725][518]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-03.35.42:725][518]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.03.29-03.35.42:726][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003646s)
+[2017.03.29-03.35.42:746][518]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-03.35.42:747][518]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-03.35.42:747][518]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-03.35.42:747][518]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-03.35.42:747][518]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-03.35.42:747][518]LogInit: FAudioDevice initialized.
+[2017.03.29-03.35.42:787][518]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-03.35.42:789][518]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-22.35.42
+[2017.03.29-03.35.42:789][518]LogWorld: Bringing up level for play took: 0.000914
+[2017.03.29-03.35.42:791][518]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.079
+[2017.03.29-03.36.26:192][850]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.36.28:085][ 75]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.36.30:978][418]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.36.37:525][185]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.36.40:459][492]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.37.46:371][168]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-03.42.49:918][374]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-03.42.49:936][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.42.49:936][374]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 5:42:49 PM)
+[2017.03.29-03.42.49:936][374]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-03.42.49:939][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002677s)
+[2017.03.29-03.42.49:939][374]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-03.42.49:939][374]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.03.29-03.42.49:940][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003524s)
+[2017.03.29-03.42.49:963][374]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-03.42.49:963][374]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-03.42.49:963][374]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-03.42.49:963][374]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-03.42.49:963][374]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-03.42.49:963][374]LogInit: FAudioDevice initialized.
+[2017.03.29-03.42.49:996][374]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-03.42.49:998][374]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-22.42.49
+[2017.03.29-03.42.49:998][374]LogWorld: Bringing up level for play took: 0.000984
+[2017.03.29-03.42.50:000][374]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.069
+[2017.03.29-03.42.51:586][515]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-03.47.40:108][239]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-03.51.08:303][391]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-03.51.08:328][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-03.51.08:329][391]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 5:51:08 PM)
+[2017.03.29-03.51.08:329][391]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-03.51.08:332][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003053s)
+[2017.03.29-03.51.08:332][391]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-03.51.08:333][391]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.03.29-03.51.08:333][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.004076s)
+[2017.03.29-03.51.08:352][391]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-03.51.08:352][391]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-03.51.08:352][391]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-03.51.08:352][391]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-03.51.08:352][391]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-03.51.08:353][391]LogInit: FAudioDevice initialized.
+[2017.03.29-03.51.08:386][391]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-03.51.08:388][391]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-22.51.08
+[2017.03.29-03.51.08:388][391]LogWorld: Bringing up level for play took: 0.000866
+[2017.03.29-03.51.08:390][391]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.068
+[2017.03.29-03.51.15:926][212]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-03.52.55:286][751]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-04.03.05:102][289]Cmd: QUIT_EDITOR
+[2017.03.29-04.03.05:145][289]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-04.03.05:155][289]LogExit: Preparing to exit.
+[2017.03.29-04.03.05:989][289]LogExit: Editor shut down
+[2017.03.29-04.03.05:990][289]LogExit: Transaction tracking system shut down
+[2017.03.29-04.03.05:992][289]LogTemp:Display: Removed shader map 0x00007F4ACF121100 from material 0x00007F4ADAA0C600
+[2017.03.29-04.03.05:992][289]LogTemp:Display: Removed shader map 0x00007F4AD05E4D00 from material 0x00007F4AE3490C80
+[2017.03.29-04.03.05:997][289]LogTemp:Display: Removed shader map 0x00007F4AD1561C80 from material 0x00007F4AF88E2380
+[2017.03.29-04.03.05:997][289]LogTemp:Display: Removed shader map 0x00007F4AD2538C00 from material 0x00007F4ADFC04C80
+[2017.03.29-04.03.05:997][289]LogTemp:Display: Removed shader map 0x00007F4AD34DE800 from material 0x00007F4B53582500
+[2017.03.29-04.03.05:997][289]LogTemp:Display: Removed shader map 0x00007F4AD4BAF400 from material 0x00007F4AF2769500
+[2017.03.29-04.03.06:093][289]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.29-04.03.06:093][289]LogExit: Object subsystem successfully closed.
+[2017.03.29-04.03.06:151][289]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (460)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module AnimationEditor (458)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module SkeletonEditor (456)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (454)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module SlateFileDialogs (452)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module BlueprintGraph (450)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (448)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (446)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (444)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module CrashTracker (442)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module SceneOutliner (440)
+[2017.03.29-04.03.06:152][289]LogModuleManager: Shutting down and abandoning module AddContentDialog (438)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module WidgetCarousel (437)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module EditorWidgets (434)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module CollectionManager (432)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module StatsViewer (430)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module FoliageEdit (428)
+[2017.03.29-04.03.06:153][289]LogModuleManager: Shutting down and abandoning module LandscapeEditor (426)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (424)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module ActorPickerMode (422)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module GeometryMode (420)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module TextureAlignMode (418)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module BspMode (416)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module HardwareSurvey (414)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (412)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module SequenceRecorder (410)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module AutomationWorker (408)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (406)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (404)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module MfMediaFactory (402)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module MfMediaEditor (400)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (398)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (396)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (394)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module Media (393)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (390)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (388)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module PlacementMode (387)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (384)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module CharacterAI (382)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module SmartSnapping (380)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module SessionServices (378)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module ViewportSnapping (376)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module ViewportInteraction (374)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module LogVisualizer (372)
+[2017.03.29-04.03.06:154][289]LogModuleManager: Shutting down and abandoning module IntroTutorials (370)
+[2017.03.29-04.03.06:155][289]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (369)
+[2017.03.29-04.03.06:155][289]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (366)
+[2017.03.29-04.03.06:155][289]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (364)
+[2017.03.29-04.03.06:155][289]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (362)
+[2017.03.29-04.03.06:155][289]LogModuleManager: Shutting down and abandoning module TcpMessaging (361)
+[2017.03.29-04.03.06:255][289]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (359)
+[2017.03.29-04.03.06:618][289]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (356)
+[2017.03.29-04.03.06:618][289]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (354)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (352)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module InputBindingEditor (350)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module NiagaraEditor (348)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module MergeActors (346)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module SizeMap (344)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module TreeMap (342)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module ReferenceViewer (340)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (338)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module LocalizationService (337)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module HardwareTargeting (334)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (332)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module UndoHistory (330)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module UserFeedback (328)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module XmlParser (326)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module Blutility (324)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (322)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (321)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (318)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module SettingsEditor (316)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module ProjectLauncher (314)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module SessionFrontend (312)
+[2017.03.29-04.03.06:619][289]LogModuleManager: Shutting down and abandoning module ProfilerClient (310)
+[2017.03.29-04.03.06:620][289]LogModuleManager: Shutting down and abandoning module DeviceManager (308)
+[2017.03.29-04.03.06:620][289]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (307)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module AutomationController (304)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module AutomationWindow (302)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module Layers (300)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (298)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module DetailCustomizations (296)
+[2017.03.29-04.03.06:630][289]LogModuleManager: Shutting down and abandoning module PackagesDialog (294)
+[2017.03.29-04.03.06:631][289]LogModuleManager: Shutting down and abandoning module Persona (292)
+[2017.03.29-04.03.06:631][289]LogModuleManager: Shutting down and abandoning module AnimGraph (291)
+[2017.03.29-04.03.06:631][289]LogModuleManager: Shutting down and abandoning module Kismet (288)
+[2017.03.29-04.03.06:642][289]LogModuleManager: Shutting down and abandoning module GraphEditor (286)
+[2017.03.29-04.03.06:642][289]LogModuleManager: Shutting down and abandoning module ClassViewer (284)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module Toolbox (282)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module ModuleUI (280)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module MovieSceneTools (278)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module OutputLog (276)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module GammaUI (274)
+[2017.03.29-04.03.06:644][289]LogModuleManager: Shutting down and abandoning module Documentation (272)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module GeometryCache (270)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (269)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module Niagara (266)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (264)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module AnalyticsET (262)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module PortalServices (260)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module PortalRpc (258)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module MessagingRpc (256)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module AIModule (254)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module GameplayDebugger (253)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module AITestSuite (251)
+[2017.03.29-04.03.06:645][289]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (242)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (240)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (238)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module SuperSearch (237)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module PluginBrowser (234)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (232)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module EpicSurvey (230)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (228)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (226)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (224)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (222)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (220)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module CableComponent (218)
+[2017.03.29-04.03.06:811][289]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (216)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (212)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (210)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module DesktopPlatform (209)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module GitSourceControl (206)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (204)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module SourceControl (203)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (200)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (198)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (196)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module Paper2DEditor (194)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module MeshPaint (193)
+[2017.03.29-04.03.06:812][289]LogModuleManager: Shutting down and abandoning module LevelEditor (191)
+[2017.03.29-04.03.06:813][289]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (190)
+[2017.03.29-04.03.06:813][289]LogModuleManager: Shutting down and abandoning module MainFrame (188)
+[2017.03.29-04.03.06:813][289]LogModuleManager: Shutting down and abandoning module HotReload (187)
+[2017.03.29-04.03.06:814][289]LogModuleManager: Shutting down and abandoning module ContentBrowser (183)
+[2017.03.29-04.03.06:815][289]LogModuleManager: Shutting down and abandoning module Primer (180)
+[2017.03.29-04.03.06:815][289]LogModuleManager: Shutting down and abandoning module UdpMessaging (178)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (176)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module FacialAnimation (174)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (172)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (170)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (168)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module PhysXVehicles (166)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (164)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module SensibleEditorSourceCodeAccess (162)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (160)
+[2017.03.29-04.03.06:915][289]LogModuleManager: Shutting down and abandoning module Paper2D (158)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.03.29-04.03.06:916][289]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.03.29-04.03.06:918][289]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module ALAudio (118)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module Core (112)
+[2017.03.29-04.03.06:919][289]LogModuleManager: Shutting down and abandoning module AssetRegistry (110)
+[2017.03.29-04.03.06:983][289]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (109)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module KismetCompiler (106)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module PhysXFormats (104)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module MeshUtilities (102)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (101)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module PropertyEditor (99)
+[2017.03.29-04.03.06:984][289]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.03.29-04.03.07:043][289]LogDerivedDataCache: Shutdown
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (93)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (89)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module ImageWrapper (88)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (85)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (75)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (73)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (71)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (69)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (67)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (65)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (63)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (61)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (59)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (57)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (55)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (53)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (51)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (49)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module Settings (44)
+[2017.03.29-04.03.07:043][289]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.03.29-04.03.07:043][289]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.29-04.03.07:044][289]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.03.29-04.03.07:044][289]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.29-04.03.07:044][289]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B065D523D-0803-111C-000E-022E72C9994B%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.1-0%2B%2B%2BUE4%2BRelease-4.15&UserID=000283f12b03140d003a007b2ae3db35%7C%7C065e19e87186423fa6bdac6411abf796&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2017.03.29-04.03.07:065][289]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (36)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (32)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module AudioEditor (28)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module TextureCompressor (26)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module ShaderCore (24)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module Landscape (22)
+[2017.03.29-04.03.07:066][289]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (20)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module OpenGLDrv (18)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.29-04.03.07:069][289]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.29-04.03.07:070][289]LogExit: Exiting.
+[2017.03.29-04.03.07:070][289]LogInit: Tearing down SDL.
+[2017.03.29-04.03.07:090][289]Log file closed, 03/28/17 23:03:07
