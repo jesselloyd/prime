@@ -1,9 +1,9 @@
-﻿Log file open, 03/28/17 12:32:16
+﻿Log file open, 03/29/17 12:18:17
 LogInit:Display: Running engine for game: Primer
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1037152067) SRandInit(-1037152067).
+LogInit:Display: RandInit(-1554191796) SRandInit(-1554191796).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.036193
+LogStats: Stats thread started at 0.036248
 LogInit: Using libcurl 7.48.0-DEV
 LogInit:  - built for x86_64-unknown-linux-gnu
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -50,970 +50,761 @@ LogInit: Base directory: /home/jason/Documents/_repos/UnrealEngine/4.15/UnrealEn
 LogInit: Installed Engine Build: 0
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.28-17.32.16:698][  0]LogInit: Initializing SDL.
-[2017.03.28-17.32.16:854][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
-[2017.03.28-17.32.16:854][  0]LogInit: Display metrics:
-[2017.03.28-17.32.16:854][  0]LogInit:   PrimaryDisplayWidth: 1920
-[2017.03.28-17.32.16:854][  0]LogInit:   PrimaryDisplayHeight: 1080
-[2017.03.28-17.32.16:854][  0]LogInit:   PrimaryDisplayWorkAreaRect:
-[2017.03.28-17.32.16:854][  0]LogInit:     Left=1920, Top=25, Right=3840, Bottom=1080
-[2017.03.28-17.32.16:854][  0]LogInit:   VirtualDisplayRect:
-[2017.03.28-17.32.16:854][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
-[2017.03.28-17.32.16:854][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
-[2017.03.28-17.32.16:854][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
-[2017.03.28-17.32.16:854][  0]LogInit:   Number of monitors: 2
-[2017.03.28-17.32.16:854][  0]LogInit:     Monitor 0
-[2017.03.28-17.32.16:854][  0]LogInit:       Name: VE247 24"
-[2017.03.28-17.32.16:854][  0]LogInit:       ID: display0
-[2017.03.28-17.32.16:854][  0]LogInit:       NativeWidth: 1920
-[2017.03.28-17.32.16:854][  0]LogInit:       NativeHeight: 1080
-[2017.03.28-17.32.16:854][  0]LogInit:       bIsPrimary: true
-[2017.03.28-17.32.16:854][  0]LogInit:     Monitor 1
-[2017.03.28-17.32.16:854][  0]LogInit:       Name: 1
-[2017.03.28-17.32.16:854][  0]LogInit:       ID: display1
-[2017.03.28-17.32.16:854][  0]LogInit:       NativeWidth: 1920
-[2017.03.28-17.32.16:854][  0]LogInit:       NativeHeight: 1080
-[2017.03.28-17.32.16:854][  0]LogInit:       bIsPrimary: false
-[2017.03.28-17.32.16:854][  0]LogLinux: Selected Device Profile: [Linux]
-[2017.03.28-17.32.16:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
-[2017.03.28-17.32.16:864][  0]LogInit: Linux hardware info:
-[2017.03.28-17.32.16:864][  0]LogInit:  - we are the first instance of this executable
-[2017.03.28-17.32.16:864][  0]LogInit:  - this process' id (pid) is 17775, parent process' id (ppid) is 24566
-[2017.03.28-17.32.16:864][  0]LogInit:  - we are not running under debugger
-[2017.03.28-17.32.16:864][  0]LogInit:  - machine network name is 'jason-Xubuntu'
-[2017.03.28-17.32.16:864][  0]LogInit:  - user name is 'jason' (jason)
-[2017.03.28-17.32.16:864][  0]LogInit:  - we're logged in locally
-[2017.03.28-17.32.16:864][  0]LogInit:  - we're running with rendering
-[2017.03.28-17.32.16:864][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz' (signature: 0x306C3)
-[2017.03.28-17.32.16:865][  0]LogInit:  - Number of physical cores available for the process: 4
-[2017.03.28-17.32.16:865][  0]LogInit:  - Number of logical cores available for the process: 8
-[2017.03.28-17.32.16:865][  0]LogInit:  - Cache line size: 64
-[2017.03.28-17.32.16:865][  0]LogInit:  - Memory allocator used: binned
-[2017.03.28-17.32.16:865][  0]LogLinux: Benchmarking clocks:
-[2017.03.28-17.32.16:865][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 50513458 (50513K, 51M) calls per second without zero deltas.
-[2017.03.28-17.32.16:865][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 54291785 (54292K, 54M) calls per second without zero deltas.
-[2017.03.28-17.32.16:865][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 13830821 (13831K, 14M) calls per second without zero deltas.
-[2017.03.28-17.32.16:865][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 171650457 (171650K, 172M) calls per second with 99.999849% zero deltas.
-[2017.03.28-17.32.16:865][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
-[2017.03.28-17.32.16:865][  0]LogInit: Linux-specific commandline switches:
-[2017.03.28-17.32.16:865][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
-[2017.03.28-17.32.16:865][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
-[2017.03.28-17.32.16:865][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
-[2017.03.28-17.32.16:865][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
-[2017.03.28-17.32.16:865][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
-[2017.03.28-17.32.16:865][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
-[2017.03.28-17.32.16:865][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
-[2017.03.28-17.32.16:865][  0]LogInit:  - Physical RAM available (not considering process quota): 24 GB (23993 MB, 24569852 KB, 25159528448 bytes)
-[2017.03.28-17.32.16:875][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.03.28-17.32.18:237][  0]LogRHI: Initializing OpenGL RHI
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_RENDERER: GeForce GTX 880M/PCIe/SSE2
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 378.13
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
-[2017.03.28-17.32.18:237][  0]LogRHI: OpenGL Extensions:
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_AMD_multi_draw_indirect
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_arrays_of_arrays
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_base_instance
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_bindless_texture
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_blend_func_extended
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_buffer_storage
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_clear_buffer_object
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_clear_texture
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_clip_control
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_color_buffer_float
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_conservative_depth
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_compute_shader
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_compute_variable_group_size
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_conditional_render_inverted
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_copy_buffer
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_copy_image
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_cull_distance
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_debug_output
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_depth_buffer_float
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_depth_clamp
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_depth_texture
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_derivative_control
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_direct_state_access
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_draw_buffers
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_draw_buffers_blend
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_draw_indirect
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_draw_instanced
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_enhanced_layouts
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_ES2_compatibility
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_ES3_compatibility
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_ES3_1_compatibility
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_ES3_2_compatibility
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_explicit_attrib_location
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_explicit_uniform_location
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_fragment_coord_conventions
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_fragment_layer_viewport
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_fragment_program
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_fragment_program_shadow
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_fragment_shader
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_framebuffer_object
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_framebuffer_sRGB
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_geometry_shader4
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_get_program_binary
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_get_texture_sub_image
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_gl_spirv
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_gpu_shader5
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_gpu_shader_fp64
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_gpu_shader_int64
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_half_float_pixel
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_half_float_vertex
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_imaging
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_indirect_parameters
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_instanced_arrays
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_internalformat_query
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_internalformat_query2
-[2017.03.28-17.32.18:237][  0]LogRHI:   GL_ARB_invalidate_subdata
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_map_buffer_alignment
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_map_buffer_range
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_multi_bind
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_multi_draw_indirect
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_multisample
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_multitexture
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_occlusion_query
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_occlusion_query2
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_parallel_shader_compile
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_pipeline_statistics_query
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_pixel_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_point_parameters
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_point_sprite
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_program_interface_query
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_provoking_vertex
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_query_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_robustness
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_sample_shading
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_sampler_objects
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_seamless_cube_map
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_separate_shader_objects
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_atomic_counters
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_ballot
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_bit_encoding
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_clock
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_draw_parameters
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_group_vote
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_image_load_store
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_image_size
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_objects
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_precision
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_subroutine
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_texture_image_samples
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shader_texture_lod
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shading_language_100
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shading_language_420pack
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shading_language_include
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shading_language_packing
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_shadow
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_sparse_buffer
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_sparse_texture
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_stencil_texturing
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_sync
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_tessellation_shader
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_barrier
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_border_clamp
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_buffer_range
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_compression
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_compression_bptc
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_compression_rgtc
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_cube_map
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_cube_map_array
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_env_add
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_env_combine
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_env_crossbar
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_env_dot3
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_float
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_gather
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_multisample
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_non_power_of_two
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_query_levels
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_query_lod
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_rectangle
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_rg
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_stencil8
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_storage
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_storage_multisample
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_swizzle
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_texture_view
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_timer_query
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_transform_feedback2
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_transform_feedback3
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_transform_feedback_instanced
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_transpose_matrix
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_uniform_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_array_bgra
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_array_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_attrib_binding
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_buffer_object
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_program
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_shader
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_viewport_array
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ARB_window_pos
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ATI_draw_buffers
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ATI_texture_float
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_ATI_texture_mirror_once
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_S3_s3tc
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_texture_env_add
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_abgr
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_bgra
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_bindable_uniform
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_blend_color
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_blend_equation_separate
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_blend_func_separate
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_blend_minmax
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_blend_subtract
-[2017.03.28-17.32.18:238][  0]LogRHI:   GL_EXT_compiled_vertex_array
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_Cg_shader
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_depth_bounds_test
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_direct_state_access
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_draw_buffers2
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_draw_instanced
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_draw_range_elements
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_fog_coord
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_framebuffer_blit
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_framebuffer_multisample
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_framebuffer_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_framebuffer_sRGB
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_geometry_shader4
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_gpu_program_parameters
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_gpu_shader4
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_multi_draw_arrays
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_packed_depth_stencil
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_packed_float
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_packed_pixels
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_pixel_buffer_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_point_parameters
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_polygon_offset_clamp
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_provoking_vertex
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_rescale_normal
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_secondary_color
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_separate_shader_objects
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_separate_specular_color
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_shader_image_load_store
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_shader_integer_mix
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_shadow_funcs
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_stencil_two_side
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_stencil_wrap
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture3D
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_array
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_buffer_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_compression_dxt1
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_compression_latc
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_compression_rgtc
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_compression_s3tc
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_cube_map
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_edge_clamp
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_env_combine
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_env_dot3
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_integer
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_lod
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_lod_bias
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_mirror_clamp
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_shared_exponent
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_sRGB
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_sRGB_decode
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_storage
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_texture_swizzle
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_timer_query
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_transform_feedback2
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_vertex_array
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_vertex_array_bgra
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_window_rectangles
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_x11_sync_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_EXT_import_sync_object
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_robustness_video_memory_purge
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_IBM_rasterpos_clip
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KHR_context_flush_control
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KHR_debug
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KHR_no_error
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KHR_robustness
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_KTX_buffer_region
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_bindless_texture
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_blend_equation_advanced
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_blend_square
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_command_list
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_compute_program5
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_conditional_render
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_copy_depth_to_color
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_copy_image
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_depth_buffer_float
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_depth_clamp
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_draw_texture
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_draw_vulkan_image
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_ES1_1_compatibility
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_ES3_1_compatibility
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_explicit_multisample
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_fence
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_float_buffer
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_fog_distance
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_fragment_program
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_fragment_program_option
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_fragment_program2
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_geometry_shader4
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_program4
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_internalformat_sample_query
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_program4_1
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_program5
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_program_fp64
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_gpu_shader5
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_half_float
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_light_max_exponent
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_multisample_coverage
-[2017.03.28-17.32.18:239][  0]LogRHI:   GL_NV_multisample_filter_hint
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_occlusion_query
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_packed_depth_stencil
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_parameter_buffer_object
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_parameter_buffer_object2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_path_rendering
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_pixel_data_range
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_point_sprite
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_primitive_restart
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_register_combiners
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_register_combiners2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_atomic_counters
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_atomic_float
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_buffer_load
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_storage_buffer_object
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texgen_reflection
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_barrier
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_compression_vtc
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_env_combine4
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_multisample
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_rectangle
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_shader
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_shader2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_texture_shader3
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_transform_feedback
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_transform_feedback2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vdpau_interop
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_array_range
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_array_range2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_program
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_program1_1
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_program2
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_program2_option
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_vertex_program3
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NVX_conditional_render
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NVX_gpu_memory_info
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NVX_nvenc_interop
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_thread_group
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_NV_shader_thread_shuffle
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_KHR_blend_equation_advanced
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_SGIS_generate_mipmap
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_SGIS_texture_lod
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_SGIX_depth_texture
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_SGIX_shadow
-[2017.03.28-17.32.18:240][  0]LogRHI:   GL_SUN_slice_accum
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
-[2017.03.28-17.32.18:241][  0]LogRHI:   GL_MAX_SAMPLES: 32
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
-[2017.03.28-17.32.18:248][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
-[2017.03.28-17.32.18:248][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
-[2017.03.28-17.32.18:253][  0]LogRHI: Texture pool is 2867 MB (70% of 4096 MB)
-[2017.03.28-17.32.18:253][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Prime/prime/Primer/Intermediate/Shaders/WorkingDirectory/17775/).
-[2017.03.28-17.32.18:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Prime/prime/Primer/Intermediate/Shaders/tmp/000385EE12030C1C002000FDC2608BF7/'.
-[2017.03.28-17.32.18:254][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.28-17.32.21:736][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.28-17.32.21:865][  0]LogTemp:Display: Failed to get target platform HTML5TargetPlatform
-[2017.03.28-17.32.22:011][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.28-17.32.22:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.28-17.32.22:303][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.28-17.32.23:024][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.28-17.32.23:024][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.28-17.32.23:024][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.28-17.32.23:024][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.28-17.32.23:024][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.28-17.32.23:170][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.28-17.32.23:301][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.28-17.32.23:443][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.03.28-17.32.23:588][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.28-17.32.23:588][  0]LogTargetPlatformManager:Display: Building Assets For Linux
-[2017.03.28-17.32.23:917][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.28-17.32.23:956][  0]LogDerivedDataCache: Loaded boot cache 0.04s 60MB ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc.
-[2017.03.28-17.32.23:956][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Prime/prime/Primer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2017.03.28-17.32.23:957][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2017.03.28-17.32.23:958][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2017.03.28-17.32.23:966][  0]LogSlate: Using Freetype 2.6.0
-[2017.03.28-17.32.23:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
-[2017.03.28-17.32.23:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
-[2017.03.28-17.32.24:227][  0]LogLinux: Selected Device Profile: [Linux]
-[2017.03.28-17.32.24:228][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.28-17.32.24:676][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.03.28-17.32.24:680][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.03.28-17.32.24:680][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.28-17.32.24:681][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.03.28-17.32.25:108][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: primer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3544936793
-[2017.03.28-17.32.25:327][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
-[2017.03.28-17.32.25:393][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.015176 seconds
-[2017.03.28-17.32.25:404][  0]LogUObjectArray: 32343 objects as part of root set at end of initial load.
-[2017.03.28-17.32.25:404][  0]LogUObjectAllocator: 7031048 out of 0 bytes used by permanent object pool.
-[2017.03.28-17.32.25:404][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.28-17.32.25:686][  0]LogHAL: Linux SourceCodeAccessSettings: KDevelopSourceCodeAccessor
-[2017.03.28-17.32.29:542][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.28-17.32.30:545][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.28-17.32.31:603][  0]SourceControl: Info Source control is disabled
-[2017.03.28-17.32.31:604][  0]SourceControl: Info Source control is disabled
-[2017.03.28-17.32.32:246][  0]SourceControl: Info Source control is disabled
-[2017.03.28-17.32.32:253][  0]LogDesktopPlatform: DesktopPlatformLinux is not using LinuxNativeDialogs.
-[2017.03.28-17.32.32:412][  0]SourceControl: Info Source control is disabled
-[2017.03.28-17.32.34:597][  0]LogEngine: Initializing Engine...
-[2017.03.28-17.32.35:172][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.03.28-17.32.35:180][  0]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.32.35:181][  0]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.32.35:181][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.32.35:181][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.32.35:181][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.32.35:181][  0]LogInit: FAudioDevice initialized.
-[2017.03.28-17.32.35:222][  0]LogDerivedDataCache: Saved boot cache 0.04s 60MB ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc.
-[2017.03.28-17.32.35:231][  0]LogInit: Texture streaming: Enabled
-[2017.03.28-17.32.36:183][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.03.28-17.32.36:929][  0]LogInit: Transaction tracking system initialized
-[2017.03.28-17.32.37:955][  0]BlueprintLog: New page: Editor Load
-[2017.03.28-17.32.40:421][  0]LocalizationService: Info Localization service is disabled
-[2017.03.28-17.32.41:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.28-17.32.42:347][  0]LogConsoleResponse:Display: 
-[2017.03.28-17.32.42:458][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/' took 0.00s
-[2017.03.28-17.32.42:458][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.03.28-17.32.42:458][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.28-17.32.44:849][  0]SourceControl: Info Source control is disabled
-[2017.03.28-17.32.44:849][  0]Cmd: MAP LOAD FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.28-17.32.44:850][  0]LightingResults: New page: Lighting Build
-[2017.03.28-17.32.44:954][  0]MapCheck: New page: Map Check
-[2017.03.28-17.32.44:954][  0]LightingResults: New page: Lighting Build
-[2017.03.28-17.32.45:284][  0]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.32.45:288][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.28-17.32.45:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.28-17.32.45:303][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 14.111ms to complete.
-[2017.03.28-17.32.45:303][  0]LogFileHelpers: Loading map 'BasicArena' took 0.454
-[2017.03.28-17.32.45:505][  0]LogCollectionManager: Loaded 0 collections in 0.001293 seconds
-[2017.03.28-17.32.45:521][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Saved/Collections/' took 0.00s
-[2017.03.28-17.32.45:521][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/Developers/jason/Collections/' took 0.00s
-[2017.03.28-17.32.45:521][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/Collections/' took 0.00s
-[2017.03.28-17.32.45:521][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2232 classes and 429 folders.
-[2017.03.28-17.32.45:524][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.03.28-17.32.45:633][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.28-17.32.45:634][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.03.28-17.32.45:776][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.03.28-17.32.45:797][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.03.28-17.32.45:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.03.28-17.32.46:012][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.28-17.32.46:030][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.28-17.32.46:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.03.28-17.32.46:185][  0]LogLoad: (Engine Initialization) Total time: 31.26 seconds
-[2017.03.28-17.32.46:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
-[2017.03.28-17.32.46:185][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.03.28-17.32.46:521][  0]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.03.28-17.32.46:528][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.03.28-17.32.46:532][  0]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.03.28-17.32.46:631][  0]LogRenderer: Reallocating scene render targets to support 1208x556 NumSamples 1 (Frame:2).
-[2017.03.28-17.32.46:743][  0]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.32.46:780][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.28-17.32.46:856][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.28-17.32.46:898][  1]LogAssetRegistry: Asset discovery search completed in 21.5745 seconds
-[2017.03.28-17.32.46:898][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.03.28-17.32.46:898][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2017.03.28-17.32.47:225][ 25]LogSlate: Took 0.000069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.28-17.32.47:416][ 46]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.33.18:155][574]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.33.23:829][886]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.33.26:044][886]LogSlate: Took 0.000049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.28-17.33.26:060][886]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.33.26:181][886]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.33.26:208][886]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.35.15:799][124]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-17.35.15:815][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-17.35.15:815][124]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 7:35:15 AM)
-[2017.03.28-17.35.15:815][124]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-17.35.15:818][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002621s)
-[2017.03.28-17.35.15:818][124]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.35.15:819][124]LogPlayLevel: PIE: World Init took: (0.000683s)
-[2017.03.28-17.35.15:819][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003537s)
-[2017.03.28-17.35.15:831][124]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.35.15:831][124]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.35.15:831][124]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.35.15:831][124]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.35.15:831][124]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.35.15:832][124]LogInit: FAudioDevice initialized.
-[2017.03.28-17.35.15:873][124]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-17.35.15:875][124]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-12.35.15
-[2017.03.28-17.35.15:876][124]LogWorld: Bringing up level for play took: 0.000921
-[2017.03.28-17.35.15:991][124]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2017.03.28-17.35.15:993][124]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.171
-[2017.03.28-17.35.23:138][925]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-17.35.29:945][482]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.35.30:498][482]LogSlate: Took 0.000049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.03.28-17.35.30:801][482]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 112 classes and 0 folders.
-[2017.03.28-17.35.31:734][482]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.03.28-17.35.31:925][483]LogSlate: Took 0.000063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.03.28-17.35.31:998][484]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.35.33:019][534]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.35.40:972][265]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.36.29:649][915]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.36.38:075][903]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-17.36.39:006][982]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.36.39:043][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.36.39:107][982]LogSavePackage: Save=61.40ms
-[2017.03.28-17.36.39:107][982]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacter91B328EE27030C1C0024002ED1EBEADE.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.36.39:108][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.46.46:654][545]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.46.54:639][466]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.47.00:592][122]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.47.01:911][237]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.47.10:504][230]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.47.26:072][ 24]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.47.28:574][287]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.02:961][286]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-17.48.09:473][  1]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.22:267][477]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.39:028][467]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.39:658][519]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.55:015][326]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.48.56:092][432]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.49.36:617][199]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.49.37:149][240]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.49.47:684][431]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.06:934][701]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.07:861][789]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.24:783][772]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.25:212][807]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.32:283][610]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.39:027][370]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.39:459][412]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.45:062][ 56]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.50.45:418][ 89]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.51.15:121][575]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.51.23:853][576]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.51.57:596][857]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.52.13:829][701]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.52.32:044][873]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.52.40:857][912]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.52.40:874][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GameFiles/Maps/BasicArena' took 0.017
-[2017.03.28-17.52.40:876][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameFiles/Blueprints/Hero/HeroCharacter] ([1] browsable assets)...
-[2017.03.28-17.52.40:905][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GameFiles/Blueprints/Hero/HeroCharacter.HeroCharacter]
-[2017.03.28-17.52.40:905][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameFiles/Blueprints/Hero/HeroCharacter]
-[2017.03.28-17.52.40:973][912]LogSavePackage: Save=65.64ms
-[2017.03.28-17.52.40:973][912]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacter_Auto1A397107C28030C1C0034038C0B40C1A3.tmp' to '../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/Blueprints/Hero/HeroCharacter_Auto1.uasset'
-[2017.03.28-17.52.40:974][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Saved/Autosaves/Game/GameFiles/Blueprints/Hero/HeroCharacter_Auto1.uasset
-[2017.03.28-17.52.40:974][912]LogFileHelpers: Auto-saving content packages took 0.099
-[2017.03.28-17.52.45:468][284]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.52.46:301][372]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.08:528][ 24]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.19:939][364]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.24:120][859]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.25:820][ 57]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.32:089][781]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.34:396][ 51]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.48:243][697]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.53.49:366][808]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.54.11:377][331]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-17.54.12:125][386]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.54.12:156][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.54.12:246][386]LogSavePackage: Save=69.02ms
-[2017.03.28-17.54.12:246][386]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterA922532E0C030C1C003600B110B169D4.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.54.12:247][386]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.54.14:093][580]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.54.14:096][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.28-17.54.14:140][580]LogSavePackage: Save=24.52ms
-[2017.03.28-17.54.14:140][580]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArenaA92400770E030C1C0036007410CF02EF.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
-[2017.03.28-17.54.14:141][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
-[2017.03.28-17.54.14:173][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
-[2017.03.28-17.54.14:344][580]LogSavePackage: Save=167.45ms
-[2017.03.28-17.54.14:344][580]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataA92642ED0E030C1C003600B110CFF616.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
-[2017.03.28-17.54.14:345][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
-[2017.03.28-17.54.15:168][669]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-17.54.15:185][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-17.54.15:185][669]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 7:54:15 AM)
-[2017.03.28-17.54.15:185][669]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-17.54.15:188][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002912s)
-[2017.03.28-17.54.15:188][669]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.54.15:189][669]LogPlayLevel: PIE: World Init took: (0.000584s)
-[2017.03.28-17.54.15:189][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003742s)
-[2017.03.28-17.54.15:208][669]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.54.15:208][669]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.54.15:208][669]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.54.15:208][669]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.54.15:208][669]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.54.15:208][669]LogInit: FAudioDevice initialized.
-[2017.03.28-17.54.15:247][669]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-17.54.15:250][669]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-12.54.15
-[2017.03.28-17.54.15:250][669]LogWorld: Bringing up level for play took: 0.000870
-[2017.03.28-17.54.15:252][669]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.07
-[2017.03.28-17.54.17:208][894]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-17.54.18:553][ 54]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-17.54.19:704][192]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 0.0
-[2017.03.28-17.54.20:562][293]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-17.54.21:778][439]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 1.0
-[2017.03.28-17.54.22:732][553]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-17.54.23:711][670]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: -1.0
-[2017.03.28-17.54.30:902][491]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-17.55.38:670][586]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.55.39:270][634]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.56.04:290][566]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-17.56.04:995][619]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.56.05:028][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.56.05:099][619]LogSavePackage: Save=68.17ms
-[2017.03.28-17.56.05:099][619]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterAB8E52C205030C1C0038001F176B7492.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.56.05:100][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.56.07:204][832]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-17.56.07:220][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-17.56.07:221][832]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 7:56:07 AM)
-[2017.03.28-17.56.07:221][832]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-17.56.07:224][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002729s)
-[2017.03.28-17.56.07:224][832]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.56.07:224][832]LogPlayLevel: PIE: World Init took: (0.000603s)
-[2017.03.28-17.56.07:224][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003556s)
-[2017.03.28-17.56.07:244][832]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.56.07:245][832]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.56.07:245][832]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.56.07:245][832]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.56.07:245][832]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.56.07:245][832]LogInit: FAudioDevice initialized.
-[2017.03.28-17.56.07:282][832]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-17.56.07:284][832]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-12.56.07
-[2017.03.28-17.56.07:284][832]LogWorld: Bringing up level for play took: 0.001043
-[2017.03.28-17.56.07:286][832]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.074
-[2017.03.28-17.56.09:531][ 90]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-17.56.10:724][233]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 0.0
-[2017.03.28-17.56.11:227][293]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 0.0
-[2017.03.28-17.56.12:153][404]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.12:345][427]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.12:534][449]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.14:873][729]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: -1.0
-[2017.03.28-17.56.15:807][841]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.16:461][918]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.16:719][949]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.16:952][977]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.17:144][  0]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.17:369][ 25]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.17:875][ 85]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.18:094][111]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.18:633][175]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 0.0
-[2017.03.28-17.56.18:863][201]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 0.0
-[2017.03.28-17.56.20:076][323]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-17.56.20:957][406]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.56.20:958][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.28-17.56.21:001][406]LogSavePackage: Save=23.97ms
-[2017.03.28-17.56.21:001][406]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArenaABA2802814030C1C003803D1185EC3FC.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
-[2017.03.28-17.56.21:002][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
-[2017.03.28-17.56.21:033][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
-[2017.03.28-17.56.21:123][406]LogSavePackage: Save=87.14ms
-[2017.03.28-17.56.21:123][406]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataABA4818315030C1C00380024185FAE1D.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
-[2017.03.28-17.56.21:124][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
-[2017.03.28-17.56.21:833][474]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-17.56.21:849][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-17.56.21:850][474]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 7:56:21 AM)
-[2017.03.28-17.56.21:850][474]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-17.56.21:853][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002762s)
-[2017.03.28-17.56.21:853][474]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.56.21:853][474]LogPlayLevel: PIE: World Init took: (0.000522s)
-[2017.03.28-17.56.21:853][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003529s)
-[2017.03.28-17.56.21:874][474]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.56.21:875][474]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.56.21:875][474]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.56.21:875][474]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.56.21:875][474]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.56.21:875][474]LogInit: FAudioDevice initialized.
-[2017.03.28-17.56.21:907][474]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-17.56.21:909][474]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-12.56.21
-[2017.03.28-17.56.21:909][474]LogWorld: Bringing up level for play took: 0.000865
-[2017.03.28-17.56.21:911][474]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.058
-[2017.03.28-17.56.22:907][586]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.23:443][650]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.56.26:912][ 17]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.56.45:431][198]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.56.51:091][798]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-17.57.11:607][228]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.57.11:635][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.57.11:704][228]LogSavePackage: Save=66.03ms
-[2017.03.28-17.57.11:704][228]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterABB57BE70B030C1C0039027E1B63CE5B.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.57.11:705][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.57.11:738][228]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.57.11:740][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.57.11:795][228]LogSavePackage: Save=51.84ms
-[2017.03.28-17.57.11:795][228]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterABB7AAEF0B030C1C003902E71B6561FE.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.57.11:796][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.57.13:357][407]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-17.57.14:047][462]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.57.14:075][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-17.57.14:145][462]LogSavePackage: Save=67.18ms
-[2017.03.28-17.57.14:145][462]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterADF704EF0E030C1C0039004E1B890143.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-17.57.14:146][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-17.57.16:217][678]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-17.57.16:233][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-17.57.16:234][678]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 7:57:16 AM)
-[2017.03.28-17.57.16:234][678]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-17.57.16:236][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002615s)
-[2017.03.28-17.57.16:237][678]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-17.57.16:237][678]LogPlayLevel: PIE: World Init took: (0.000519s)
-[2017.03.28-17.57.16:237][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003372s)
-[2017.03.28-17.57.16:257][678]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-17.57.16:258][678]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-17.57.16:258][678]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-17.57.16:258][678]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-17.57.16:258][678]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-17.57.16:258][678]LogInit: FAudioDevice initialized.
-[2017.03.28-17.57.16:291][678]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-17.57.16:293][678]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-12.57.16
-[2017.03.28-17.57.16:293][678]LogWorld: Bringing up level for play took: 0.001112
-[2017.03.28-17.57.16:295][678]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.067
-[2017.03.28-17.57.17:362][795]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-17.57.18:605][942]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-17.57.19:652][ 67]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: -1.0
-[2017.03.28-17.57.20:409][157]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-17.57.21:634][287]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-17.59.05:865][689]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-17.59.09:825][154]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.12:071][595]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-18.00.12:725][641]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.12:757][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-18.00.12:828][641]LogSavePackage: Save=67.21ms
-[2017.03.28-18.00.12:828][641]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterB0524E580C030D1C000002F8262F87D5.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-18.00.12:829][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-18.00.14:015][763]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.14:019][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.28-18.00.14:062][763]LogSavePackage: Save=23.56ms
-[2017.03.28-18.00.14:062][763]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArenaB054B7370E030D1C000000272643069C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
-[2017.03.28-18.00.14:063][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
-[2017.03.28-18.00.14:093][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
-[2017.03.28-18.00.14:183][763]LogSavePackage: Save=86.88ms
-[2017.03.28-18.00.14:183][763]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltDataB056F5CF0E030D1C000000602643E79E.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
-[2017.03.28-18.00.14:183][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
-[2017.03.28-18.00.15:800][942]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-18.00.15:816][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-18.00.15:817][942]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 8:00:15 AM)
-[2017.03.28-18.00.15:817][942]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-18.00.15:819][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002503s)
-[2017.03.28-18.00.15:820][942]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-18.00.15:820][942]LogPlayLevel: PIE: World Init took: (0.000567s)
-[2017.03.28-18.00.15:820][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003308s)
-[2017.03.28-18.00.15:838][942]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-18.00.15:839][942]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-18.00.15:839][942]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-18.00.15:839][942]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-18.00.15:839][942]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-18.00.15:839][942]LogInit: FAudioDevice initialized.
-[2017.03.28-18.00.15:873][942]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-18.00.15:875][942]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-13.00.15
-[2017.03.28-18.00.15:875][942]LogWorld: Bringing up level for play took: 0.001163
-[2017.03.28-18.00.15:877][942]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.055
-[2017.03.28-18.00.19:200][330]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.00.20:018][427]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-18.00.20:911][533]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-18.00.22:541][726]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.00.23:011][782]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.00.23:269][813]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.00.26:450][150]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-18.00.32:425][842]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.34:841][124]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.44:952][293]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.00.46:649][492]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.01.21:498][999]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-18.01.22:308][ 69]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.01.22:338][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-18.01.22:409][ 69]LogSavePackage: Save=67.89ms
-[2017.03.28-18.01.22:409][ 69]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterB2AE9EAF16030D1C000101552A5531D8.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-18.01.22:410][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-18.01.26:438][520]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-18.01.26:457][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-18.01.26:458][520]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 8:01:26 AM)
-[2017.03.28-18.01.26:458][520]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-18.01.26:460][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002727s)
-[2017.03.28-18.01.26:461][520]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-18.01.26:461][520]LogPlayLevel: PIE: World Init took: (0.000609s)
-[2017.03.28-18.01.26:461][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003592s)
-[2017.03.28-18.01.26:481][520]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-18.01.26:482][520]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-18.01.26:482][520]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-18.01.26:482][520]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-18.01.26:482][520]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-18.01.26:482][520]LogInit: FAudioDevice initialized.
-[2017.03.28-18.01.26:515][520]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-18.01.26:517][520]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-13.01.26
-[2017.03.28-18.01.26:517][520]LogWorld: Bringing up level for play took: 0.000985
-[2017.03.28-18.01.26:519][520]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.057
-[2017.03.28-18.01.27:601][639]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-18.01.28:270][718]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.28:504][746]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.28:725][772]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.29:126][820]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.29:659][884]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.29:901][913]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.30:084][935]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.30:268][957]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.01.30:993][ 44]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-18.01.32:953][272]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-18.01.33:962][393]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 1.0
-[2017.03.28-18.01.34:812][495]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.01.35:287][552]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.01.35:521][580]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: -1.0
-[2017.03.28-18.04.07:703][699]LogALAudio: Closing ALAudio device : OpenAL Soft
-[2017.03.28-18.04.10:749][ 59]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.04.11:494][125]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.04.37:704][229]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.04.58:676][657]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x194bce0
-
-[2017.03.28-18.04.58:676][657]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x194bce0
-
-[2017.03.28-18.05.18:538][ 12]LogEditorTransaction: Undo Move Node
-[2017.03.28-18.05.18:752][ 14]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.19:291][ 66]LogEditorTransaction: Undo Delete current selection
-[2017.03.28-18.05.24:772][420]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (764, 409 is larger than threshold 250)
-[2017.03.28-18.05.33:990][486]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.42:512][394]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.43:174][451]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.47:180][923]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.49:364][175]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.54:653][803]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.05.55:205][851]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.09:768][416]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.17:221][288]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.18:215][397]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.27:225][450]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.33:958][247]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.34:442][295]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.47:013][720]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.53:529][457]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.55:502][680]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.06.58:524][ 27]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.17:836][291]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.18:896][406]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.23:788][981]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.24:309][ 33]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.47:276][499]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.49:010][694]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.07.52:117][ 37]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.08.17:560][989]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.08.18:246][ 61]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.08.38:555][308]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0xa7c2f0
-
-[2017.03.28-18.08.38:556][308]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0xa7c2f0
-
-[2017.03.28-18.08.39:517][416]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.08.51:669][834]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.08.54:541][168]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.09.12:105][185]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.09.14:288][436]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.09.16:170][650]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.09.19:352][ 16]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.09.58:840][618]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.00:652][825]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.07:547][626]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.08:188][679]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.14:502][322]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x1746480
-
-[2017.03.28-18.10.14:502][322]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x1746480
-
-[2017.03.28-18.10.20:167][981]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.20:698][ 21]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.35:774][720]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.47:621][110]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-18.10.47:694][110]LogBlueprint:Error: [Compiler HeroCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2017.03.28-18.10.48:018][110]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2017.03.28-18.10.48:019][110]LogBlueprint:Warning: [Compiler HeroCharacter] Warning [2313.09] Compile of HeroCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 398 ms] (/Game/GameFiles/Blueprints/Hero/HeroCharacter.HeroCharacter)
-[2017.03.28-18.10.48:386][145]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.10.48:430][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-18.10.48:507][145]LogSavePackage: Save=74.14ms
-[2017.03.28-18.10.48:507][145]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterC3AA4AB530030D1C000A01B14C1310AD.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-18.10.48:508][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-18.11.07:460][376]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.11.08:205][455]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.11.26:691][363]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.11.27:485][434]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.12.06:287][564]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x1746480
-
-[2017.03.28-18.12.06:287][564]LogLinuxWindow:Warning: BAD EVENT: SDL window = 0x1746480
-
-[2017.03.28-18.12.13:388][372]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.12.16:269][694]BlueprintLog: New page: Compile HeroCharacter
-[2017.03.28-18.12.17:279][787]LogLinux: Setting swap interval to 'Immediate'
-[2017.03.28-18.12.17:309][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Blueprints/Hero/HeroCharacter" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset" SILENT=true
-[2017.03.28-18.12.17:390][787]LogSavePackage: Save=77.67ms
-[2017.03.28-18.12.17:390][787]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/HeroCharacterC67CBB4211030D1C000C0139515F4E23.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset'
-[2017.03.28-18.12.17:391][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Blueprints/Hero/HeroCharacter.uasset
-[2017.03.28-18.12.19:362][985]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.28-18.12.19:379][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.28-18.12.19:380][985]PIE: New page: PIE session: BasicArena (Mar 28, 2017, 8:12:19 AM)
-[2017.03.28-18.12.19:380][985]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
-[2017.03.28-18.12.19:382][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002674s)
-[2017.03.28-18.12.19:383][985]LogAIModule: Creating AISystem for world BasicArena
-[2017.03.28-18.12.19:383][985]LogPlayLevel: PIE: World Init took: (0.000610s)
-[2017.03.28-18.12.19:383][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003516s)
-[2017.03.28-18.12.19:405][985]LogALAudio: ALAudio device opened : OpenAL Soft
-[2017.03.28-18.12.19:406][985]LogALAudio: AL_VENDOR      : OpenAL Community
-[2017.03.28-18.12.19:406][985]LogALAudio: AL_RENDERER    : OpenAL Soft
-[2017.03.28-18.12.19:406][985]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
-[2017.03.28-18.12.19:406][985]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
-[2017.03.28-18.12.19:406][985]LogInit: FAudioDevice initialized.
-[2017.03.28-18.12.19:437][985]LogLoad: Game class is 'TwinStickMode_C'
-[2017.03.28-18.12.19:440][985]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.28-13.12.19
-[2017.03.28-18.12.19:440][985]LogWorld: Bringing up level for play took: 0.001043
-[2017.03.28-18.12.19:442][985]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.058
-[2017.03.28-18.12.20:752][131]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 1.0
-[2017.03.28-18.12.21:386][207]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.21:752][251]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.21:952][275]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.22:136][297]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.22:319][319]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.22:502][341]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.22:686][363]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.22:931][392]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.23:157][419]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.23:365][444]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.23:598][472]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.23:807][497]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.23:998][520]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: 0.0
-[2017.03.28-18.12.24:655][598]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 1.0  DOWN: 0.0
-[2017.03.28-18.12.25:413][689]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: -1.0
-[2017.03.28-18.12.26:288][794]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 0.0
-[2017.03.28-18.12.27:209][904]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: 0.0  DOWN: -1.0
-[2017.03.28-18.12.29:036][122]LogBlueprintUserMessages: [HeroCharacter_C_0] [input axi]  UP: -1.0  DOWN: 0.0
-[2017.03.28-18.13.11:670][ 96]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-17.18.17:316][  0]LogInit: Initializing SDL.
+[2017.03.29-17.18.17:468][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
+[2017.03.29-17.18.17:468][  0]LogInit: Display metrics:
+[2017.03.29-17.18.17:468][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2017.03.29-17.18.17:468][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2017.03.29-17.18.17:468][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2017.03.29-17.18.17:468][  0]LogInit:     Left=1920, Top=25, Right=3840, Bottom=1080
+[2017.03.29-17.18.17:468][  0]LogInit:   VirtualDisplayRect:
+[2017.03.29-17.18.17:468][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2017.03.29-17.18.17:468][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2017.03.29-17.18.17:468][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2017.03.29-17.18.17:468][  0]LogInit:   Number of monitors: 2
+[2017.03.29-17.18.17:468][  0]LogInit:     Monitor 0
+[2017.03.29-17.18.17:468][  0]LogInit:       Name: VE247 24"
+[2017.03.29-17.18.17:468][  0]LogInit:       ID: display0
+[2017.03.29-17.18.17:468][  0]LogInit:       NativeWidth: 1920
+[2017.03.29-17.18.17:468][  0]LogInit:       NativeHeight: 1080
+[2017.03.29-17.18.17:468][  0]LogInit:       bIsPrimary: true
+[2017.03.29-17.18.17:468][  0]LogInit:     Monitor 1
+[2017.03.29-17.18.17:468][  0]LogInit:       Name: 1
+[2017.03.29-17.18.17:468][  0]LogInit:       ID: display1
+[2017.03.29-17.18.17:468][  0]LogInit:       NativeWidth: 1920
+[2017.03.29-17.18.17:468][  0]LogInit:       NativeHeight: 1080
+[2017.03.29-17.18.17:468][  0]LogInit:       bIsPrimary: false
+[2017.03.29-17.18.17:468][  0]LogLinux: Selected Device Profile: [Linux]
+[2017.03.29-17.18.17:468][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2017.03.29-17.18.17:478][  0]LogInit: Linux hardware info:
+[2017.03.29-17.18.17:478][  0]LogInit:  - we are the first instance of this executable
+[2017.03.29-17.18.17:479][  0]LogInit:  - this process' id (pid) is 1948, parent process' id (ppid) is 30886
+[2017.03.29-17.18.17:479][  0]LogInit:  - we are not running under debugger
+[2017.03.29-17.18.17:479][  0]LogInit:  - machine network name is 'jason-Xubuntu'
+[2017.03.29-17.18.17:479][  0]LogInit:  - user name is 'jason' (jason)
+[2017.03.29-17.18.17:479][  0]LogInit:  - we're logged in locally
+[2017.03.29-17.18.17:479][  0]LogInit:  - we're running with rendering
+[2017.03.29-17.18.17:479][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz' (signature: 0x306C3)
+[2017.03.29-17.18.17:479][  0]LogInit:  - Number of physical cores available for the process: 4
+[2017.03.29-17.18.17:479][  0]LogInit:  - Number of logical cores available for the process: 8
+[2017.03.29-17.18.17:479][  0]LogInit:  - Cache line size: 64
+[2017.03.29-17.18.17:479][  0]LogInit:  - Memory allocator used: binned
+[2017.03.29-17.18.17:479][  0]LogLinux: Benchmarking clocks:
+[2017.03.29-17.18.17:479][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 53321744 (53322K, 53M) calls per second without zero deltas.
+[2017.03.29-17.18.17:479][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 54645082 (54645K, 55M) calls per second without zero deltas.
+[2017.03.29-17.18.17:479][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 14257771 (14258K, 14M) calls per second without zero deltas.
+[2017.03.29-17.18.17:479][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 174751354 (174751K, 175M) calls per second with 99.999851% zero deltas.
+[2017.03.29-17.18.17:479][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2017.03.29-17.18.17:479][  0]LogInit: Linux-specific commandline switches:
+[2017.03.29-17.18.17:479][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2017.03.29-17.18.17:479][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2017.03.29-17.18.17:479][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2017.03.29-17.18.17:479][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2017.03.29-17.18.17:479][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2017.03.29-17.18.17:479][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2017.03.29-17.18.17:479][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2017.03.29-17.18.17:479][  0]LogInit:  - Physical RAM available (not considering process quota): 24 GB (23993 MB, 24569852 KB, 25159528448 bytes)
+[2017.03.29-17.18.17:488][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.29-17.18.18:871][  0]LogRHI: Initializing OpenGL RHI
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_RENDERER: GeForce GTX 880M/PCIe/SSE2
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 378.13
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2017.03.29-17.18.18:871][  0]LogRHI: OpenGL Extensions:
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_base_instance
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_bindless_texture
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_blend_func_extended
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_buffer_storage
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_clear_texture
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_clip_control
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_color_buffer_float
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_conservative_depth
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_compute_shader
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_copy_buffer
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_copy_image
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_cull_distance
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_debug_output
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_depth_clamp
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_depth_texture
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_derivative_control
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_direct_state_access
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_draw_buffers
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_draw_indirect
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_draw_instanced
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2017.03.29-17.18.18:871][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_fragment_program
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_fragment_shader
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_framebuffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_geometry_shader4
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_get_program_binary
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_gl_spirv
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_gpu_shader5
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_half_float_pixel
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_half_float_vertex
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_imaging
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_indirect_parameters
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_instanced_arrays
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_internalformat_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_internalformat_query2
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_map_buffer_range
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_multi_bind
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_multisample
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_multitexture
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_occlusion_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_occlusion_query2
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_point_parameters
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_point_sprite
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_program_interface_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_provoking_vertex
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_query_buffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_robustness
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_sample_shading
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_sampler_objects
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_ballot
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_clock
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_group_vote
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_image_size
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_objects
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_precision
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_subroutine
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shading_language_100
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shading_language_include
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shading_language_packing
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_shadow
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_sparse_buffer
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_sparse_texture
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_stencil_texturing
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_sync
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_tessellation_shader
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_barrier
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_compression
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_cube_map
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_env_add
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_env_combine
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_float
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_gather
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_multisample
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_query_levels
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_query_lod
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_rectangle
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_rg
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_stencil8
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_storage
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_swizzle
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_texture_view
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_timer_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_transform_feedback2
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_transform_feedback3
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_transpose_matrix
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2017.03.29-17.18.18:872][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_array_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_program
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_shader
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_viewport_array
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ARB_window_pos
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ATI_draw_buffers
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ATI_texture_float
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_S3_s3tc
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_env_add
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_abgr
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_bgra
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_bindable_uniform
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_blend_color
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_blend_func_separate
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_blend_minmax
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_blend_subtract
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_Cg_shader
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_direct_state_access
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_draw_buffers2
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_draw_instanced
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_draw_range_elements
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_fog_coord
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_framebuffer_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_geometry_shader4
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_gpu_shader4
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_packed_float
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_packed_pixels
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_point_parameters
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_provoking_vertex
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_rescale_normal
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_secondary_color
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_separate_specular_color
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_shadow_funcs
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_stencil_two_side
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_stencil_wrap
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture3D
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_array
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_cube_map
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_env_combine
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_integer
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_lod
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_sRGB
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_storage
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_texture_swizzle
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_timer_query
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_transform_feedback2
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_vertex_array
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_window_rectangles
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_x11_sync_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_EXT_import_sync_object
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KHR_context_flush_control
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KHR_debug
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KHR_no_error
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KHR_robustness
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_KTX_buffer_region
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_bindless_texture
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_blend_square
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_command_list
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_compute_program5
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_conditional_render
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_copy_image
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_depth_buffer_float
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_depth_clamp
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_draw_texture
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2017.03.29-17.18.18:873][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_explicit_multisample
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_fence
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_float_buffer
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_fog_distance
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_fragment_program
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_fragment_program_option
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_fragment_program2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_geometry_shader4
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_program4
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_program4_1
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_program5
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_gpu_shader5
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_half_float
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_light_max_exponent
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_multisample_coverage
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_occlusion_query
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_path_rendering
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_pixel_data_range
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_point_sprite
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_primitive_restart
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_register_combiners
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_register_combiners2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_atomic_float
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_buffer_load
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texgen_reflection
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_barrier
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_env_combine4
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_multisample
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_rectangle
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_shader
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_shader2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_texture_shader3
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_transform_feedback
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_transform_feedback2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vdpau_interop
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_array_range
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_array_range2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_program
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_program1_1
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_program2
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_program2_option
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_vertex_program3
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NVX_conditional_render
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NVX_nvenc_interop
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_thread_group
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_SGIS_texture_lod
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_SGIX_depth_texture
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_SGIX_shadow
+[2017.03.29-17.18.18:874][  0]LogRHI:   GL_SUN_slice_accum
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2017.03.29-17.18.18:875][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2017.03.29-17.18.18:882][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2017.03.29-17.18.18:882][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2017.03.29-17.18.18:889][  0]LogRHI: Texture pool is 2867 MB (70% of 4096 MB)
+[2017.03.29-17.18.18:889][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Prime/prime/Primer/Intermediate/Shaders/WorkingDirectory/1948/).
+[2017.03.29-17.18.18:889][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Prime/prime/Primer/Intermediate/Shaders/tmp/000374DB12030C1D00120379A3904B6E/'.
+[2017.03.29-17.18.18:889][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.29-17.18.22:305][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.29-17.18.22:430][  0]LogTemp:Display: Failed to get target platform HTML5TargetPlatform
+[2017.03.29-17.18.22:571][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.29-17.18.22:712][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.29-17.18.22:855][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.29-17.18.23:562][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.29-17.18.23:562][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.29-17.18.23:562][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.29-17.18.23:562][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.29-17.18.23:562][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.29-17.18.23:704][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.29-17.18.23:835][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.29-17.18.23:978][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.29-17.18.24:120][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.29-17.18.24:120][  0]LogTargetPlatformManager:Display: Building Assets For Linux
+[2017.03.29-17.18.24:432][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.29-17.18.24:469][  0]LogDerivedDataCache: Loaded boot cache 0.04s 60MB ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc.
+[2017.03.29-17.18.24:469][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc
+[2017.03.29-17.18.24:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Prime/prime/Primer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.29-17.18.24:469][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.29-17.18.24:470][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.29-17.18.24:470][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2017.03.29-17.18.24:470][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2017.03.29-17.18.24:470][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2017.03.29-17.18.24:470][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2017.03.29-17.18.24:478][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.29-17.18.24:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2017.03.29-17.18.24:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2017.03.29-17.18.24:724][  0]LogLinux: Selected Device Profile: [Linux]
+[2017.03.29-17.18.24:724][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.29-17.18.25:153][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.29-17.18.25:157][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.29-17.18.25:157][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.29-17.18.25:157][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.29-17.18.25:558][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: primer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3544936793
+[2017.03.29-17.18.25:771][  0]LogAssetRegistry: FAssetRegistry took 0.0004 seconds to start up
+[2017.03.29-17.18.25:834][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013223 seconds
+[2017.03.29-17.18.25:840][  0]LogUObjectArray: 32343 objects as part of root set at end of initial load.
+[2017.03.29-17.18.25:841][  0]LogUObjectAllocator: 7031048 out of 0 bytes used by permanent object pool.
+[2017.03.29-17.18.25:841][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.29-17.18.26:098][  0]LogHAL: Linux SourceCodeAccessSettings: KDevelopSourceCodeAccessor
+[2017.03.29-17.18.29:761][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.29-17.18.30:719][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.29-17.18.31:745][  0]SourceControl: Info Source control is disabled
+[2017.03.29-17.18.31:745][  0]SourceControl: Info Source control is disabled
+[2017.03.29-17.18.32:385][  0]SourceControl: Info Source control is disabled
+[2017.03.29-17.18.32:393][  0]LogDesktopPlatform: DesktopPlatformLinux is not using LinuxNativeDialogs.
+[2017.03.29-17.18.32:547][  0]SourceControl: Info Source control is disabled
+[2017.03.29-17.18.34:707][  0]LogEngine: Initializing Engine...
+[2017.03.29-17.18.35:271][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.29-17.18.35:280][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-17.18.35:281][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-17.18.35:281][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-17.18.35:281][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-17.18.35:281][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-17.18.35:282][  0]LogInit: FAudioDevice initialized.
+[2017.03.29-17.18.35:323][  0]LogDerivedDataCache: Saved boot cache 0.04s 60MB ../../../../../../Prime/prime/Primer/DerivedDataCache/Boot.ddc.
+[2017.03.29-17.18.35:331][  0]LogInit: Texture streaming: Enabled
+[2017.03.29-17.18.36:101][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.29-17.18.36:833][  0]LogInit: Transaction tracking system initialized
+[2017.03.29-17.18.37:848][  0]BlueprintLog: New page: Editor Load
+[2017.03.29-17.18.40:293][  0]LocalizationService: Info Localization service is disabled
+[2017.03.29-17.18.41:434][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.29-17.18.42:200][  0]LogConsoleResponse:Display: 
+[2017.03.29-17.18.42:311][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/' took 0.00s
+[2017.03.29-17.18.42:311][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.29-17.18.42:311][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.29-17.18.44:721][  0]SourceControl: Info Source control is disabled
+[2017.03.29-17.18.44:721][  0]Cmd: MAP LOAD FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.29-17.18.44:721][  0]LightingResults: New page: Lighting Build
+[2017.03.29-17.18.44:824][  0]MapCheck: New page: Map Check
+[2017.03.29-17.18.44:824][  0]LightingResults: New page: Lighting Build
+[2017.03.29-17.18.45:213][  0]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-17.18.45:218][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.29-17.18.45:218][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.29-17.18.45:232][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 14.01ms to complete.
+[2017.03.29-17.18.45:232][  0]LogFileHelpers: Loading map 'BasicArena' took 0.512
+[2017.03.29-17.18.45:507][  0]LogCollectionManager: Loaded 0 collections in 0.001341 seconds
+[2017.03.29-17.18.45:523][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Saved/Collections/' took 0.00s
+[2017.03.29-17.18.45:523][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/Developers/jason/Collections/' took 0.00s
+[2017.03.29-17.18.45:523][  0]LogFileCache: Scanning file cache for directory '/home/jason/Documents/_repos/Prime/prime/Primer/Content/Collections/' took 0.00s
+[2017.03.29-17.18.45:523][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2232 classes and 429 folders.
+[2017.03.29-17.18.45:526][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.29-17.18.45:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.29-17.18.45:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.29-17.18.45:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.03.29-17.18.45:798][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.03.29-17.18.45:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.03.29-17.18.46:013][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.29-17.18.46:027][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.29-17.18.46:178][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.29-17.18.46:178][  0]LogLoad: (Engine Initialization) Total time: 30.69 seconds
+[2017.03.29-17.18.46:179][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.03.29-17.18.46:179][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.29-17.18.46:516][  0]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.29-17.18.46:523][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.29-17.18.46:528][  0]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.29-17.18.46:630][  0]LogRenderer: Reallocating scene render targets to support 1208x556 NumSamples 1 (Frame:2).
+[2017.03.29-17.18.46:741][  0]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.18.46:778][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.29-17.18.46:854][  0]LogSlate: Took 0.000058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-17.18.46:882][  1]LogAssetRegistry: Asset discovery search completed in 21.1115 seconds
+[2017.03.29-17.18.46:882][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.03.29-17.18.46:882][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.03.29-17.18.47:214][ 27]LogSlate: Took 0.000066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-17.18.47:410][ 49]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.19.49:837][531]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.19.50:954][652]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.20.02:504][ 22]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-17.20.02:519][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-17.20.02:520][ 22]PIE: New page: PIE session: BasicArena (Mar 29, 2017, 7:20:02 AM)
+[2017.03.29-17.20.02:520][ 22]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_1_BasicArena
+[2017.03.29-17.20.02:523][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002700s)
+[2017.03.29-17.20.02:523][ 22]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-17.20.02:523][ 22]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2017.03.29-17.20.02:523][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_1_BasicArena.BasicArena (0.003656s)
+[2017.03.29-17.20.02:537][ 22]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-17.20.02:538][ 22]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-17.20.02:538][ 22]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-17.20.02:538][ 22]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-17.20.02:538][ 22]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-17.20.02:538][ 22]LogInit: FAudioDevice initialized.
+[2017.03.29-17.20.02:579][ 22]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-17.20.02:581][ 22]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_1_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.29-12.20.02
+[2017.03.29-17.20.02:582][ 22]LogWorld: Bringing up level for play took: 0.000911
+[2017.03.29-17.20.02:693][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.03.29-17.20.02:695][ 22]LogInit: BSD: Socket queue 262144 / 262144
+[2017.03.29-17.20.02:695][ 22]LogInit: BSD: I am jason-Xubuntu (127.0.1.1:0)
+[2017.03.29-17.20.02:695][ 22]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.29-17.20.02:695][ 22]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.03.29-17.20.02:696][ 22]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_1_BasicArena 0.171
+[2017.03.29-17.20.02:696][ 22]PIE: New page: PIE session: BasicArena (Mar 29, 2017, 7:20:02 AM)
+[2017.03.29-17.20.02:742][ 22]LogNet: Browse: 127.0.0.1//Game/GameFiles/Maps/BasicArena
+[2017.03.29-17.20.02:742][ 22]LogInit: BSD: Socket queue 65536 / 65536
+[2017.03.29-17.20.02:742][ 22]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.29-17.20.02:742][ 22]LogNet: Game client on port 7777, rate 10000
+[2017.03.29-17.20.02:742][ 22]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: primer, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3935806896
+[2017.03.29-17.20.02:742][ 22]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.29-17.20.02:745][ 22]PIE: Info Play in editor start time for /Game/GameFiles/Maps/BasicArena 0.221
+[2017.03.29-17.20.02:747][ 22]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:48827
+[2017.03.29-17.20.02:748][ 22]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 125136198191031103167166101064074249117011251249189178214182
+[2017.03.29-17.20.02:763][ 22]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 125136198191031103167166101064074249117011251249189178214182
+[2017.03.29-17.20.02:853][ 23]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:48827
+[2017.03.29-17.20.02:853][ 23]LogNet: Server accepting post-challenge connection from: 127.0.0.1:48827
+[2017.03.29-17.20.02:853][ 23]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.29-17.20.02:853][ 23]LogNet: NotifyAcceptedConnection: Name: BasicArena, TimeStamp: 03/29/17 12:20:02, [UNetConnection] RemoteAddr: 127.0.0.1:48827, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.29-17.20.02:854][ 23]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:48827, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.29-17.20.02:854][ 23]LogNet: NotifyAcceptingChannel Control 0 server World /Game/GameFiles/Maps/UEDPIE_1_BasicArena.BasicArena: Accepted
+[2017.03.29-17.20.02:854][ 23]LogNet: Remote platform little endian=1
+[2017.03.29-17.20.02:854][ 23]LogNet: This platform little endian=1
+[2017.03.29-17.20.02:861][ 23]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.20.02:888][ 24]LogNet: Login request: /Game/GameFiles/Maps/BasicArena userId: Invalid
+[2017.03.29-17.20.02:889][ 24]LogNet: Welcomed by server (Level: /Game/GameFiles/Maps/UEDPIE_1_BasicArena, Game: /Game/GameFiles/Blueprints/GameMode/TwinStickMode.TwinStickMode_C)
+[2017.03.29-17.20.02:889][ 24]LogLoad: LoadMap: 127.0.0.1//Game/GameFiles/Maps/UEDPIE_1_BasicArena?game=/Game/GameFiles/Blueprints/GameMode/TwinStickMode.TwinStickMode_C
+[2017.03.29-17.20.02:905][ 24]Cmd: MEM
+[2017.03.29-17.20.02:934][ 24]LogMemory: Platform Memory Stats for Linux
+[2017.03.29-17.20.02:934][ 24]LogMemory: Process Physical Memory: 1163.15 MB used, 1213.33 MB peak
+[2017.03.29-17.20.02:934][ 24]LogMemory: Process Virtual Memory: 3884.91 MB used, 3924.31 MB peak
+[2017.03.29-17.20.02:934][ 24]LogMemory: Physical Memory: 3270.01 MB used,  20723.99 MB free, 23994.00 MB total
+[2017.03.29-17.20.02:934][ 24]LogMemory: Virtual Memory: 0.00 MB used,  20723.99 MB free, 14305.00 MB total
+[2017.03.29-17.20.02:934][ 24]LogMemory: 
+[2017.03.29-17.20.02:935][ 24]LogMemory: Allocator Stats for binned:
+[2017.03.29-17.20.02:935][ 24]LogMemory: Current Memory 620.25 MB used, plus 8.32 MB waste
+[2017.03.29-17.20.02:935][ 24]LogMemory: Peak Memory 656.11 MB used, plus 6.91 MB waste
+[2017.03.29-17.20.02:935][ 24]LogMemory: Current OS Memory 628.57 MB, peak 663.02 MB
+[2017.03.29-17.20.02:935][ 24]LogMemory: Current Waste 5.20 MB, peak 5.22 MB
+[2017.03.29-17.20.02:935][ 24]LogMemory: Current Used 620.25 MB, peak 656.11 MB
+[2017.03.29-17.20.02:935][ 24]LogMemory: Current Slack 3.12 MB
+[2017.03.29-17.20.02:935][ 24]LogMemory: Allocs       1161212 Current /  21324699 Total
+[2017.03.29-17.20.02:935][ 24]LogMemory: 
+[2017.03.29-17.20.02:935][ 24]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.03.29-17.20.02:935][ 24]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.03.29-17.20.02:935][ 24]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         16        33        33     133488      1454376      16      16    2085K       27K        0K    100.00%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         32        95        95     191056      1062496      17      32    5970K      110K      981K     83.87%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         48        40        40      52884       682661      33      48    2478K       82K      191K     92.54%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         64       106       106     107201       831064      49      64    6700K       84K      306K     95.49%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         80        84        84      67937       382807      65      80    5307K       68K      284K     94.72%
+[2017.03.29-17.20.02:935][ 24]LogMemory:         96        67        67      45480      1557932      81      96    4263K       21K      165K     96.15%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        112        87        87      50326      1986758      97     112    5504K       63K      340K     93.89%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        128        80        80      40492      2079171     113     128    5061K       59K      301K     94.12%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        160       290       303     118116      2682122     129     160   18455K       78K     1507K     91.88%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        192       133       133      45070      1418981     161     192    8450K       54K      621K     92.70%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        224       113       114      32977      1997870     193     224    7213K        5K      578K     92.01%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        256        85        85      21472      1128484     225     256    5368K       72K      351K     93.55%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        288        77        77      17285       663557     257     288    4861K       55K      240K     95.13%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        320       100       100      20326       384615     289     320    6351K       24K      333K     94.80%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        384       209       209      34357       642070     321     384   12883K      441K     1221K     90.87%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        448       336       336      48813       447458     385     448   21355K      107K     1232K     94.27%
+[2017.03.29-17.20.02:935][ 24]LogMemory:        512       510       795      65088       489057     449     512   32544K       96K     1864K     94.29%
+[2017.03.29-17.20.02:936][ 24]LogMemory:        576       103       103      11618       525505     513     576    6535K       12K      471K     92.85%
+[2017.03.29-17.20.02:936][ 24]LogMemory:        640       117       117      11816        93828     577     640    7385K       74K      418K     94.42%
+[2017.03.29-17.20.02:936][ 24]LogMemory:        704        57        57       5254        40839     641     704    3612K       33K      154K     95.78%
+[2017.03.29-17.20.02:936][ 24]LogMemory:        768        27        29       2234        43007     706     768    1675K       47K       74K     95.72%
+[2017.03.29-17.20.02:936][ 24]LogMemory:        896       132       132       9484        40608     769     896    8298K      134K      711K     91.58%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       1024        65        65       4085        56400     897    1024    4085K       75K       74K     98.22%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       1168        56        56       3115        22269    1025    1168    3553K       24K      106K     97.04%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       1360        53        54       2522        17512    1172    1360    3349K       30K      237K     93.01%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       1632       119       119       4692        23548    1362    1632    7477K      110K      702K     90.78%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       2048        92        92       2902        69517    1636    2048    5804K       84K      333K     94.34%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       2336        52        52       1409        15161    2049    2336    3214K      108K      160K     95.19%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       2720        46        46       1068        21075    2340    2720    2836K       97K      191K     93.51%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       3264       117       118       2310       105994    2724    3264    7363K       96K      834K     88.86%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       4096        64        65       1008        29092    3265    4096    4032K       64K      254K     93.80%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       4672        47        47        610        34216    4097    4670    2783K      220K      175K     94.18%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       5456        42        42        500         2844    4673    5452    2664K       22K      175K     93.49%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       6544        31        63        297        14001    5457    6544    1898K       84K      185K     90.68%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       8192        62        64        485        15151    6550    8192    3880K       88K      254K     93.60%
+[2017.03.29-17.20.02:936][ 24]LogMemory:       9360        23        24        160         4736    8196    9360    1462K       10K       53K     96.40%
+[2017.03.29-17.20.02:936][ 24]LogMemory:      10912       280       280       1674        29328    9362   10912   17838K       65K     1215K     93.22%
+[2017.03.29-17.20.02:936][ 24]LogMemory:      13104        87        89        432        45776   10920   13096    5528K       39K      444K     92.03%
+[2017.03.29-17.20.02:936][ 24]LogMemory:      16384        39        83        150         8814   13112   16384    2400K       96K      209K     91.63%
+[2017.03.29-17.20.02:936][ 24]LogMemory:      21840        51        55        150        42939   16388   21832    3199K       65K      588K     81.99%
+[2017.03.29-17.20.02:936][ 24]LogMemory:      32768       105       109        207        45547   21844   32758    6624K       96K     1348K     79.94%
+[2017.03.29-17.20.02:936][ 24]LogMemory: 
+[2017.03.29-17.20.02:936][ 24]LogMemory: 275968K allocated in pools (with 3219K slack and 19880K waste). Efficiency 92.80%
+[2017.03.29-17.20.02:936][ 24]LogMemory: Allocations 1160551 Current / 21239187 Total (in 4312 pools)
+[2017.03.29-17.20.02:936][ 24]LogMemory: 
+[2017.03.29-17.20.02:939][ 24]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-17.20.02:941][ 24]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_2_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.29-12.20.02
+[2017.03.29-17.20.02:941][ 24]LogWorld: Bringing up level for play took: 0.000730
+[2017.03.29-17.20.02:941][ 24]LogLoad: Took 0.052436 seconds to LoadMap(/Game/GameFiles/Maps/UEDPIE_1_BasicArena)
+[2017.03.29-17.20.02:966][ 25]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1594).
+[2017.03.29-17.20.02:967][ 25]LogNet: Client netspeed is 10000
+[2017.03.29-17.20.02:967][ 25]LogNet: Join request: /Game/GameFiles/Maps/BasicArena?SplitscreenCount=1
+[2017.03.29-17.20.02:970][ 25]LogNet: Join succeeded: 257
+[2017.03.29-17.22.20:601][ 12]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:48827, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.03.29-17.22.20:601][ 12]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:48827, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.03.29-17.22.20
+[2017.03.29-17.22.20:601][ 12]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:48827, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.03.29-17.22.20:601][ 12]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.03.29-17.22.20:601][ 12]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.03.29-17.22.20
+[2017.03.29-17.22.20:601][ 12]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.03.29-17.22.20:603][ 12]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2017.03.29-17.22.20:603][ 12]LogExit: GameNetDriver None shut down
+[2017.03.29-17.22.20:603][ 12]LogExit: GameNetDriver None shut down
+[2017.03.29-17.22.22:883][262]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.22.48:751][192]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.29-17.22.49:113][192]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.22.49:113][192]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.03.29-17.22.49:198][192]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.29-17.22.49:299][192]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.29-17.22.49:569][194]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.23.27:299][237]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.23.34:707][804]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.29-17.23.34:835][804]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.23.46:567][541]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.04:793][854]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.15:602][582]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.20:818][996]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (462, 710 is larger than threshold 250)
+[2017.03.29-17.24.22:546][128]LogLinuxWindowEvent:Warning: Suppressing too large relative mouse movement due to an apparent bug (460, 710 is larger than threshold 250)
+[2017.03.29-17.24.28:747][601]Cmd: TRANSACTION UNDO
+[2017.03.29-17.24.28:747][601]LogEditorTransaction: Undo Edit Rate Scale
+[2017.03.29-17.24.28:750][601]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.29-17.24.28:980][614]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.29:515][646]Cmd: TRANSACTION UNDO
+[2017.03.29-17.24.29:515][646]LogEditorTransaction: Undo Edit Rate Scale
+[2017.03.29-17.24.29:517][646]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.29-17.24.43:116][401]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.45:094][530]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.24.48:182][735]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.04:761][  1]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.04:818][  1]LogSavePackage: Save=19.90ms
+[2017.03.29-17.25.04:818][  1]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace14E15EE004030C1D0019031EBBC1FAB3.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.25.04:819][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.25.04:891][  2]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.04:897][  2]LogSavePackage: Save=1.86ms
+[2017.03.29-17.25.04:897][  2]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace14E328E904030C1D0019037FBBC37169.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.25.04:897][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.25.07:154][136]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.16:631][802]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.17:850][904]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.17:871][904]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.03.29-17.25.34:086][731]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.36:718][988]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.25.44:283][724]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.26.50:579][464]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.26:454][703]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.26:515][703]LogSavePackage: Save=19.70ms
+[2017.03.29-17.28.26:515][703]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_Run150CFA9C1A030C1D001C01EFC7C7A5B1.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.uasset'
+[2017.03.29-17.28.26:516][703]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_Run.uasset
+[2017.03.29-17.28.30:698][ 17]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.32:286][199]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.37:578][595]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.41:924][883]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.41:927][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.29-17.28.41:965][883]LogSavePackage: Save=24.27ms
+[2017.03.29-17.28.41:965][883]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena150F010229030C1D001C03ACC8B3576F.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap'
+[2017.03.29-17.28.41:965][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena.umap
+[2017.03.29-17.28.41:996][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameFiles/Maps/BasicArena_BuiltData" FILE="../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset" SILENT=true
+[2017.03.29-17.28.42:199][883]LogSavePackage: Save=199.09ms
+[2017.03.29-17.28.42:199][883]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/BasicArena_BuiltData15119DCF2A030C1D001C0000C8B43072.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset'
+[2017.03.29-17.28.42:199][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/Maps/BasicArena_BuiltData.uasset
+[2017.03.29-17.28.43:434][951]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.43:490][951]LogSavePackage: Save=21.14ms
+[2017.03.29-17.28.43:490][951]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_RunBackwards151381752B030C1D001C01D5C8CAA44C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset'
+[2017.03.29-17.28.43:491][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset
+[2017.03.29-17.28.43:544][952]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.43:553][952]LogSavePackage: Save=1.78ms
+[2017.03.29-17.28.43:553][952]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_RunBackwards1515E2C62B030C1D001C0227C8CBE32C.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset'
+[2017.03.29-17.28.43:554][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset
+[2017.03.29-17.28.43:614][953]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.43:623][953]LogSavePackage: Save=1.79ms
+[2017.03.29-17.28.43:623][953]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_RunBackwards15174E6C2B030C1D001C026DC8CCF192.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset'
+[2017.03.29-17.28.43:624][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset
+[2017.03.29-17.28.44:799][ 19]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.44:820][ 19]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.03.29-17.28.49:536][476]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.28.49:588][476]LogSavePackage: Save=19.00ms
+[2017.03.29-17.28.49:588][476]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/char_anims_1_Anim_skeleton_RunBackwards153E4D9231030C1D001C0239C927B098.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset'
+[2017.03.29-17.28.49:589][476]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/char_anims_1_Anim_skeleton_RunBackwards.uasset
+[2017.03.29-17.29.00:763][507]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.02:621][662]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.04:937][892]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.04:946][892]LogSavePackage: Save=1.74ms
+[2017.03.29-17.29.04:946][892]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace1540447804030C1D001D03B0CA125438.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.29.04:947][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.29.04:979][892]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.04:986][892]LogSavePackage: Save=1.78ms
+[2017.03.29-17.29.04:986][892]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace1542C50804030C1D001D03D8CA12E86D.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.29.04:987][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.29.05:019][892]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.05:027][892]LogSavePackage: Save=2.20ms
+[2017.03.29-17.29.05:027][892]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace1544979705030C1D001D0019CA138A16.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.29.05:028][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.29.05:072][893]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.05:079][893]LogSavePackage: Save=1.86ms
+[2017.03.29-17.29.05:079][893]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace154643D305030C1D001D004DCA145D71.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.29.05:080][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.29.29:303][224]LogLinux: Setting swap interval to 'Immediate'
+[2017.03.29-17.29.29:312][224]LogSavePackage: Save=1.86ms
+[2017.03.29-17.29.29:312][224]LogSavePackage: Moving '../../../../../../Prime/prime/Primer/Saved/CharBlendSpace15483A601D030C1D001D0136CB8619FF.tmp' to '../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset'
+[2017.03.29-17.29.29:313][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Prime/prime/Primer/Content/GameFiles/3DAssets/Character_v3/3DAssetControl/CharBlendSpace.uasset
+[2017.03.29-17.29.31:460][434]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.29-17.29.31:476][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-17.29.31:477][434]PIE: New page: PIE session: BasicArena (Mar 29, 2017, 7:29:31 AM)
+[2017.03.29-17.29.31:477][434]LogPlayLevel: Creating play world package: /Game/GameFiles/Maps/UEDPIE_0_BasicArena
+[2017.03.29-17.29.31:479][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002681s)
+[2017.03.29-17.29.31:480][434]LogAIModule: Creating AISystem for world BasicArena
+[2017.03.29-17.29.31:480][434]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.03.29-17.29.31:480][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameFiles/Maps/BasicArena.BasicArena to /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena (0.003559s)
+[2017.03.29-17.29.31:495][434]LogALAudio: ALAudio device opened : OpenAL Soft
+[2017.03.29-17.29.31:496][434]LogALAudio: AL_VENDOR      : OpenAL Community
+[2017.03.29-17.29.31:496][434]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2017.03.29-17.29.31:496][434]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2017.03.29-17.29.31:496][434]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2017.03.29-17.29.31:496][434]LogInit: FAudioDevice initialized.
+[2017.03.29-17.29.31:526][434]LogLoad: Game class is 'TwinStickMode_C'
+[2017.03.29-17.29.31:528][434]LogWorld: Bringing World /Game/GameFiles/Maps/UEDPIE_0_BasicArena.BasicArena up for play (max tick rate 0) at 2017.03.29-12.29.31
+[2017.03.29-17.29.31:529][434]LogWorld: Bringing up level for play took: 0.001089
+[2017.03.29-17.29.31:531][434]PIE: Info Play in editor start time for /Game/GameFiles/Maps/UEDPIE_0_BasicArena 0.053
+[2017.03.29-17.30.03:131][938]LogALAudio: Closing ALAudio device : OpenAL Soft
