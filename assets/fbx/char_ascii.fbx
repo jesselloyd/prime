@@ -12,8 +12,8 @@ FBXHeaderExtension:  {
 		Month: 03
 		Day: 31
 		Hour: 13
-		Minute: 14
-		Second: 58
+		Minute: 51
+		Second: 54
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2017-03-31 13:14:58:000"
+CreationTime: "2017-03-31 13:51:54:000"
 Creator: "Blender version 2.78 (sub 0)"
 
 ; Object definitions
@@ -10076,291 +10076,291 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster mouth master", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster extras master", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body master", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes master", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso master", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots master", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster hair master", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone master", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes master", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body master", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras master", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots master", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso master", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth foot_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras foot_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body foot_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes foot_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso foot_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots foot_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair foot_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone foot_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes foot_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body foot_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras foot_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots foot_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso foot_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth foot_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras foot_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body foot_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes foot_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso foot_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots foot_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair foot_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone foot_r", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes foot_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body foot_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras foot_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots foot_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso foot_r", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth pelvis", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras pelvis", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body pelvis", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes pelvis", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso pelvis", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots pelvis", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair pelvis", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone pelvis", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes pelvis", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body pelvis", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras pelvis", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots pelvis", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso pelvis", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth spine_1", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras spine_1", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body spine_1", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes spine_1", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso spine_1", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots spine_1", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair spine_1", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone spine_1", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes spine_1", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body spine_1", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras spine_1", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots spine_1", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso spine_1", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth spine_2", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras spine_2", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body spine_2", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes spine_2", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso spine_2", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots spine_2", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair spine_2", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone spine_2", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes spine_2", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body spine_2", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras spine_2", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots spine_2", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso spine_2", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth neck", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras neck", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body neck", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes neck", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso neck", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots neck", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair neck", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone neck", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes neck", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body neck", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras neck", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots neck", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso neck", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth head", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras head", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body head", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes head", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso head", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots head", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair head", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone head", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes head", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body head", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras head", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots head", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso head", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth upper_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras upper_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body upper_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes upper_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso upper_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots upper_leg_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair upper_leg_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone upper_leg_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes upper_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body upper_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras upper_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots upper_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso upper_leg_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth lower_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras lower_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body lower_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes lower_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso lower_leg_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots lower_leg_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair lower_leg_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone lower_leg_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes lower_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body lower_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras lower_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots lower_leg_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso lower_leg_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth upper_arm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras upper_arm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body upper_arm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes upper_arm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso upper_arm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots upper_arm_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair upper_arm_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone upper_arm_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes upper_arm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body upper_arm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras upper_arm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots upper_arm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso upper_arm_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth forearm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras forearm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body forearm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes forearm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso forearm_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots forearm_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair forearm_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone forearm_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes forearm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body forearm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras forearm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots forearm_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso forearm_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth hand_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras hand_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body hand_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes hand_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso hand_l", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots hand_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair hand_l", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone hand_l", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes hand_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body hand_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras hand_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots hand_l", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso hand_l", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth upper_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras upper_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body upper_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes upper_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso upper_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots upper_leg_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair upper_leg_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone upper_leg_r", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes upper_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body upper_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras upper_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots upper_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso upper_leg_r", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth lower_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras lower_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body lower_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes lower_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso lower_leg_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots lower_leg_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair lower_leg_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone lower_leg_r", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes lower_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body lower_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras lower_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots lower_leg_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso lower_leg_r", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth upper_arm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras upper_arm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body upper_arm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes upper_arm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso upper_arm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots upper_arm_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair upper_arm_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone upper_arm_r", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes upper_arm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body upper_arm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras upper_arm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots upper_arm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso upper_arm_r", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth forearm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras forearm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body forearm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes forearm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso forearm_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots forearm_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair forearm_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone forearm_r", "Cluster" {
 	}
+	Deformer: "SubDeformer::Cluster eyes forearm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body forearm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras forearm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots forearm_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso forearm_r", "Cluster" {
+	}
 	Deformer: "SubDeformer::Cluster mouth hand_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster extras hand_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body hand_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster eyes hand_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster torso hand_r", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster boots hand_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster hair hand_r", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster origin_bone hand_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster eyes hand_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body hand_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster extras hand_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster boots hand_r", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster torso hand_r", "Cluster" {
 	}
 }
 
@@ -10408,293 +10408,293 @@ Connections:  {
 	Connect: "OO", "Deformer::Skin origin_bone", "Model::origin_bone"
 	Connect: "OO", "Deformer::Skin hair", "Model::hair"
 	Connect: "OO", "SubDeformer::Cluster mouth master", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras master", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body master", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes master", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso master", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots master", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair master", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone master", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes master", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body master", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras master", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots master", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso master", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth foot_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras foot_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body foot_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes foot_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso foot_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots foot_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair foot_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone foot_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes foot_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body foot_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras foot_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots foot_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso foot_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth foot_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras foot_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body foot_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes foot_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso foot_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots foot_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair foot_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone foot_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes foot_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body foot_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras foot_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots foot_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso foot_r", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth pelvis", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras pelvis", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body pelvis", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes pelvis", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso pelvis", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots pelvis", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair pelvis", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone pelvis", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes pelvis", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body pelvis", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras pelvis", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots pelvis", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso pelvis", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth spine_1", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras spine_1", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body spine_1", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes spine_1", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso spine_1", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots spine_1", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair spine_1", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone spine_1", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes spine_1", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body spine_1", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras spine_1", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots spine_1", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso spine_1", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth spine_2", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras spine_2", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body spine_2", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes spine_2", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso spine_2", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots spine_2", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair spine_2", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone spine_2", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes spine_2", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body spine_2", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras spine_2", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots spine_2", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso spine_2", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth neck", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras neck", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body neck", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes neck", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso neck", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots neck", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair neck", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone neck", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes neck", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body neck", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras neck", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots neck", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso neck", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth head", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras head", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body head", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes head", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso head", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots head", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair head", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone head", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes head", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body head", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras head", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots head", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso head", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth upper_leg_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras upper_leg_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body upper_leg_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes upper_leg_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso upper_leg_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots upper_leg_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair upper_leg_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone upper_leg_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes upper_leg_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body upper_leg_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras upper_leg_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots upper_leg_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso upper_leg_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth lower_leg_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras lower_leg_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body lower_leg_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes lower_leg_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso lower_leg_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots lower_leg_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair lower_leg_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone lower_leg_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes lower_leg_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body lower_leg_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras lower_leg_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots lower_leg_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso lower_leg_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth upper_arm_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras upper_arm_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body upper_arm_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes upper_arm_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso upper_arm_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots upper_arm_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair upper_arm_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone upper_arm_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes upper_arm_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body upper_arm_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras upper_arm_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots upper_arm_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso upper_arm_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth forearm_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras forearm_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body forearm_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes forearm_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso forearm_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots forearm_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair forearm_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone forearm_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes forearm_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body forearm_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras forearm_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots forearm_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso forearm_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth hand_l", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras hand_l", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body hand_l", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes hand_l", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso hand_l", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots hand_l", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair hand_l", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone hand_l", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes hand_l", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body hand_l", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras hand_l", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots hand_l", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso hand_l", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth upper_leg_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras upper_leg_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body upper_leg_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes upper_leg_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso upper_leg_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots upper_leg_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair upper_leg_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone upper_leg_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes upper_leg_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body upper_leg_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras upper_leg_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots upper_leg_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso upper_leg_r", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth lower_leg_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras lower_leg_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body lower_leg_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes lower_leg_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso lower_leg_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots lower_leg_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair lower_leg_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone lower_leg_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes lower_leg_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body lower_leg_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras lower_leg_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots lower_leg_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso lower_leg_r", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth upper_arm_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras upper_arm_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body upper_arm_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes upper_arm_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso upper_arm_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots upper_arm_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair upper_arm_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone upper_arm_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes upper_arm_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body upper_arm_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras upper_arm_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots upper_arm_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso upper_arm_r", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth forearm_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras forearm_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body forearm_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes forearm_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso forearm_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots forearm_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair forearm_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone forearm_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes forearm_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body forearm_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras forearm_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots forearm_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso forearm_r", "Deformer::Skin torso"
 	Connect: "OO", "SubDeformer::Cluster mouth hand_r", "Deformer::Skin mouth"
-	Connect: "OO", "SubDeformer::Cluster extras hand_r", "Deformer::Skin extras"
-	Connect: "OO", "SubDeformer::Cluster body hand_r", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster eyes hand_r", "Deformer::Skin eyes"
-	Connect: "OO", "SubDeformer::Cluster torso hand_r", "Deformer::Skin torso"
-	Connect: "OO", "SubDeformer::Cluster boots hand_r", "Deformer::Skin boots"
 	Connect: "OO", "SubDeformer::Cluster hair hand_r", "Deformer::Skin hair"
 	Connect: "OO", "SubDeformer::Cluster origin_bone hand_r", "Deformer::Skin origin_bone"
+	Connect: "OO", "SubDeformer::Cluster eyes hand_r", "Deformer::Skin eyes"
+	Connect: "OO", "SubDeformer::Cluster body hand_r", "Deformer::Skin body"
+	Connect: "OO", "SubDeformer::Cluster extras hand_r", "Deformer::Skin extras"
+	Connect: "OO", "SubDeformer::Cluster boots hand_r", "Deformer::Skin boots"
+	Connect: "OO", "SubDeformer::Cluster torso hand_r", "Deformer::Skin torso"
 	Connect: "OO", "Model::master", "SubDeformer::Cluster mouth master"
-	Connect: "OO", "Model::master", "SubDeformer::Cluster extras master"
-	Connect: "OO", "Model::master", "SubDeformer::Cluster body master"
-	Connect: "OO", "Model::master", "SubDeformer::Cluster eyes master"
-	Connect: "OO", "Model::master", "SubDeformer::Cluster torso master"
-	Connect: "OO", "Model::master", "SubDeformer::Cluster boots master"
 	Connect: "OO", "Model::master", "SubDeformer::Cluster hair master"
 	Connect: "OO", "Model::master", "SubDeformer::Cluster origin_bone master"
+	Connect: "OO", "Model::master", "SubDeformer::Cluster eyes master"
+	Connect: "OO", "Model::master", "SubDeformer::Cluster body master"
+	Connect: "OO", "Model::master", "SubDeformer::Cluster extras master"
+	Connect: "OO", "Model::master", "SubDeformer::Cluster boots master"
+	Connect: "OO", "Model::master", "SubDeformer::Cluster torso master"
 	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster mouth foot_l"
-	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster extras foot_l"
-	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster body foot_l"
-	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster eyes foot_l"
-	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster torso foot_l"
-	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster boots foot_l"
 	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster hair foot_l"
 	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster origin_bone foot_l"
+	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster eyes foot_l"
+	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster body foot_l"
+	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster extras foot_l"
+	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster boots foot_l"
+	Connect: "OO", "Model::foot_l", "SubDeformer::Cluster torso foot_l"
 	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster mouth foot_r"
-	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster extras foot_r"
-	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster body foot_r"
-	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster eyes foot_r"
-	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster torso foot_r"
-	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster boots foot_r"
 	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster hair foot_r"
 	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster origin_bone foot_r"
+	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster eyes foot_r"
+	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster body foot_r"
+	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster extras foot_r"
+	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster boots foot_r"
+	Connect: "OO", "Model::foot_r", "SubDeformer::Cluster torso foot_r"
 	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster mouth pelvis"
-	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster extras pelvis"
-	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster body pelvis"
-	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster eyes pelvis"
-	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster torso pelvis"
-	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster boots pelvis"
 	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster hair pelvis"
 	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster origin_bone pelvis"
+	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster eyes pelvis"
+	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster body pelvis"
+	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster extras pelvis"
+	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster boots pelvis"
+	Connect: "OO", "Model::pelvis", "SubDeformer::Cluster torso pelvis"
 	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster mouth spine_1"
-	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster extras spine_1"
-	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster body spine_1"
-	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster eyes spine_1"
-	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster torso spine_1"
-	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster boots spine_1"
 	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster hair spine_1"
 	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster origin_bone spine_1"
+	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster eyes spine_1"
+	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster body spine_1"
+	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster extras spine_1"
+	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster boots spine_1"
+	Connect: "OO", "Model::spine_1", "SubDeformer::Cluster torso spine_1"
 	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster mouth spine_2"
-	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster extras spine_2"
-	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster body spine_2"
-	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster eyes spine_2"
-	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster torso spine_2"
-	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster boots spine_2"
 	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster hair spine_2"
 	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster origin_bone spine_2"
+	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster eyes spine_2"
+	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster body spine_2"
+	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster extras spine_2"
+	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster boots spine_2"
+	Connect: "OO", "Model::spine_2", "SubDeformer::Cluster torso spine_2"
 	Connect: "OO", "Model::neck", "SubDeformer::Cluster mouth neck"
-	Connect: "OO", "Model::neck", "SubDeformer::Cluster extras neck"
-	Connect: "OO", "Model::neck", "SubDeformer::Cluster body neck"
-	Connect: "OO", "Model::neck", "SubDeformer::Cluster eyes neck"
-	Connect: "OO", "Model::neck", "SubDeformer::Cluster torso neck"
-	Connect: "OO", "Model::neck", "SubDeformer::Cluster boots neck"
 	Connect: "OO", "Model::neck", "SubDeformer::Cluster hair neck"
 	Connect: "OO", "Model::neck", "SubDeformer::Cluster origin_bone neck"
+	Connect: "OO", "Model::neck", "SubDeformer::Cluster eyes neck"
+	Connect: "OO", "Model::neck", "SubDeformer::Cluster body neck"
+	Connect: "OO", "Model::neck", "SubDeformer::Cluster extras neck"
+	Connect: "OO", "Model::neck", "SubDeformer::Cluster boots neck"
+	Connect: "OO", "Model::neck", "SubDeformer::Cluster torso neck"
 	Connect: "OO", "Model::head", "SubDeformer::Cluster mouth head"
-	Connect: "OO", "Model::head", "SubDeformer::Cluster extras head"
-	Connect: "OO", "Model::head", "SubDeformer::Cluster body head"
-	Connect: "OO", "Model::head", "SubDeformer::Cluster eyes head"
-	Connect: "OO", "Model::head", "SubDeformer::Cluster torso head"
-	Connect: "OO", "Model::head", "SubDeformer::Cluster boots head"
 	Connect: "OO", "Model::head", "SubDeformer::Cluster hair head"
 	Connect: "OO", "Model::head", "SubDeformer::Cluster origin_bone head"
+	Connect: "OO", "Model::head", "SubDeformer::Cluster eyes head"
+	Connect: "OO", "Model::head", "SubDeformer::Cluster body head"
+	Connect: "OO", "Model::head", "SubDeformer::Cluster extras head"
+	Connect: "OO", "Model::head", "SubDeformer::Cluster boots head"
+	Connect: "OO", "Model::head", "SubDeformer::Cluster torso head"
 	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster mouth upper_leg_l"
-	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster extras upper_leg_l"
-	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster body upper_leg_l"
-	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster eyes upper_leg_l"
-	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster torso upper_leg_l"
-	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster boots upper_leg_l"
 	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster hair upper_leg_l"
 	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster origin_bone upper_leg_l"
+	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster eyes upper_leg_l"
+	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster body upper_leg_l"
+	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster extras upper_leg_l"
+	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster boots upper_leg_l"
+	Connect: "OO", "Model::upper_leg_l", "SubDeformer::Cluster torso upper_leg_l"
 	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster mouth lower_leg_l"
-	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster extras lower_leg_l"
-	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster body lower_leg_l"
-	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster eyes lower_leg_l"
-	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster torso lower_leg_l"
-	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster boots lower_leg_l"
 	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster hair lower_leg_l"
 	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster origin_bone lower_leg_l"
+	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster eyes lower_leg_l"
+	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster body lower_leg_l"
+	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster extras lower_leg_l"
+	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster boots lower_leg_l"
+	Connect: "OO", "Model::lower_leg_l", "SubDeformer::Cluster torso lower_leg_l"
 	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster mouth upper_arm_l"
-	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster extras upper_arm_l"
-	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster body upper_arm_l"
-	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster eyes upper_arm_l"
-	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster torso upper_arm_l"
-	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster boots upper_arm_l"
 	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster hair upper_arm_l"
 	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster origin_bone upper_arm_l"
+	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster eyes upper_arm_l"
+	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster body upper_arm_l"
+	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster extras upper_arm_l"
+	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster boots upper_arm_l"
+	Connect: "OO", "Model::upper_arm_l", "SubDeformer::Cluster torso upper_arm_l"
 	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster mouth forearm_l"
-	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster extras forearm_l"
-	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster body forearm_l"
-	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster eyes forearm_l"
-	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster torso forearm_l"
-	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster boots forearm_l"
 	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster hair forearm_l"
 	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster origin_bone forearm_l"
+	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster eyes forearm_l"
+	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster body forearm_l"
+	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster extras forearm_l"
+	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster boots forearm_l"
+	Connect: "OO", "Model::forearm_l", "SubDeformer::Cluster torso forearm_l"
 	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster mouth hand_l"
-	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster extras hand_l"
-	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster body hand_l"
-	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster eyes hand_l"
-	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster torso hand_l"
-	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster boots hand_l"
 	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster hair hand_l"
 	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster origin_bone hand_l"
+	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster eyes hand_l"
+	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster body hand_l"
+	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster extras hand_l"
+	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster boots hand_l"
+	Connect: "OO", "Model::hand_l", "SubDeformer::Cluster torso hand_l"
 	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster mouth upper_leg_r"
-	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster extras upper_leg_r"
-	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster body upper_leg_r"
-	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster eyes upper_leg_r"
-	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster torso upper_leg_r"
-	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster boots upper_leg_r"
 	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster hair upper_leg_r"
 	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster origin_bone upper_leg_r"
+	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster eyes upper_leg_r"
+	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster body upper_leg_r"
+	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster extras upper_leg_r"
+	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster boots upper_leg_r"
+	Connect: "OO", "Model::upper_leg_r", "SubDeformer::Cluster torso upper_leg_r"
 	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster mouth lower_leg_r"
-	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster extras lower_leg_r"
-	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster body lower_leg_r"
-	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster eyes lower_leg_r"
-	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster torso lower_leg_r"
-	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster boots lower_leg_r"
 	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster hair lower_leg_r"
 	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster origin_bone lower_leg_r"
+	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster eyes lower_leg_r"
+	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster body lower_leg_r"
+	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster extras lower_leg_r"
+	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster boots lower_leg_r"
+	Connect: "OO", "Model::lower_leg_r", "SubDeformer::Cluster torso lower_leg_r"
 	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster mouth upper_arm_r"
-	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster extras upper_arm_r"
-	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster body upper_arm_r"
-	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster eyes upper_arm_r"
-	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster torso upper_arm_r"
-	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster boots upper_arm_r"
 	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster hair upper_arm_r"
 	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster origin_bone upper_arm_r"
+	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster eyes upper_arm_r"
+	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster body upper_arm_r"
+	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster extras upper_arm_r"
+	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster boots upper_arm_r"
+	Connect: "OO", "Model::upper_arm_r", "SubDeformer::Cluster torso upper_arm_r"
 	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster mouth forearm_r"
-	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster extras forearm_r"
-	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster body forearm_r"
-	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster eyes forearm_r"
-	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster torso forearm_r"
-	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster boots forearm_r"
 	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster hair forearm_r"
 	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster origin_bone forearm_r"
+	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster eyes forearm_r"
+	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster body forearm_r"
+	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster extras forearm_r"
+	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster boots forearm_r"
+	Connect: "OO", "Model::forearm_r", "SubDeformer::Cluster torso forearm_r"
 	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster mouth hand_r"
-	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster extras hand_r"
-	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster body hand_r"
-	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster eyes hand_r"
-	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster torso hand_r"
-	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster boots hand_r"
 	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster hair hand_r"
 	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster origin_bone hand_r"
+	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster eyes hand_r"
+	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster body hand_r"
+	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster extras hand_r"
+	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster boots hand_r"
+	Connect: "OO", "Model::hand_r", "SubDeformer::Cluster torso hand_r"
 	Connect: "OO", "Model::master", "Model::character"
 	Connect: "OO", "Model::leg_ik_l", "Model::master"
 	Connect: "OO", "Model::foot_l", "Model::leg_ik_l"
